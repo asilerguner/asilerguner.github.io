@@ -204,10 +204,7 @@ a:hover { text-decoration: underline; }
 
 @media (max-width: 800px) {
   .hero-split { grid-template-columns: 1fr; }
-  .fact-grid { grid-template-columns: 1fr 1fr; }
-  .hero-card { max-width: 400px; margin: 0 auto; }
-}
-@media (max-width: 480px) {
+  .hero-card, .hero-info { max-width: 400px; margin: 0 auto; }
   .fact-grid { grid-template-columns: 1fr; }
 }
 
