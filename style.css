@@ -797,5 +797,4 @@ a, .btn, .project-card, .about-card, .cert-card, .service-card, .hobby-card, .or
   }
   .timeline-date { padding-top: 0; align-self: center; }
   .project-card-wide { flex-direction: column; }
-  .hero h1 { font-size: 1.9rem; }
 }
