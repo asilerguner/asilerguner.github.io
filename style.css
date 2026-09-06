@@ -221,6 +221,8 @@ a:hover { text-decoration: underline; }
   transition: transform 0.15s ease, opacity 0.15s ease;
 }
 .btn:hover { text-decoration: none; opacity: 0.92; }
+.btn-icon { display: inline-flex; align-items: center; justify-content: center; gap: 8px; }
+.btn-icon svg { width: 16px; height: 16px; flex-shrink: 0; }
 .btn-primary { background: var(--cyan); color: #fff; }
 .btn-outline { background: transparent; color: #fff; border: 1px solid rgba(255,255,255,0.6); }
 .btn-outline-navy { background: transparent; color: var(--navy); border: 1px solid var(--divider); }
@@ -766,6 +768,7 @@ a, .btn, .project-card, .about-card, .cert-card, .service-card, .hobby-card, .or
     right: 0;
     background: #fff;
     flex-direction: column;
+    align-items: flex-start;
     padding: 16px 24px;
     border-bottom: 1px solid var(--divider);
     display: none;
