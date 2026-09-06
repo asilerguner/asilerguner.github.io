@@ -424,6 +424,8 @@ a:hover { text-decoration: underline; }
   background: var(--surface);
 }
 .hobby-card img { width: 100%; height: 260px; object-fit: cover; display: block; }
+.hobby-photo-pair { display: flex; height: 260px; }
+.hobby-photo-pair img { width: 50%; height: 100%; }
 .hobby-card figcaption {
   padding: 14px 18px;
   font-family: var(--font-heading);
