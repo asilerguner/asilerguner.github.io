@@ -233,6 +233,7 @@ a:hover { text-decoration: underline; }
 .section { padding: 64px 0; }
 .section-alt { background: var(--surface-alt); }
 .section-intro { color: var(--muted); margin-bottom: 32px; max-width: 640px; }
+#hobbies .section-intro { max-width: none; }
 .sub-heading { margin-top: 56px; }
 
 .about-text { max-width: 760px; color: var(--body-text); font-size: 1.02rem; }
