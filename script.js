@@ -34,8 +34,6 @@ if (header) {
 
 const contactForm = document.getElementById("contactForm");
 if (contactForm) {
-  const CONTACT_ADDRESS = ["asilerguner", "gmail.com"].join("@");
-
   const params = new URLSearchParams(window.location.search);
   if (params.get("topic") === "licensing") {
     document.getElementById("cf-message").value =
@@ -44,13 +42,30 @@ if (contactForm) {
 
   contactForm.addEventListener("submit", (e) => {
     e.preventDefault();
-    const name = document.getElementById("cf-name").value.trim();
-    const email = document.getElementById("cf-email").value.trim();
-    const message = document.getElementById("cf-message").value.trim();
-    const subject = encodeURIComponent(`Message from ${name} via portfolio site`);
-    const body = encodeURIComponent(`${message}\n\n— ${name} (${email})`);
-    window.location.href = `mailto:${CONTACT_ADDRESS}?subject=${subject}&body=${body}`;
-    document.getElementById("formNote").textContent = "Opening your email app...";
+    const formNote = document.getElementById("formNote");
+    const submitBtn = contactForm.querySelector("button[type='submit']");
+    submitBtn.disabled = true;
+    formNote.textContent = "Sending...";
+
+    fetch(contactForm.action, {
+      method: "POST",
+      body: new FormData(contactForm),
+      headers: { Accept: "application/json" },
+    })
+      .then((response) => {
+        if (response.ok) {
+          formNote.textContent = "Thanks! Your message has been sent - I'll get back to you soon.";
+          contactForm.reset();
+        } else {
+          formNote.textContent = "Something went wrong. Please email asilerguner@gmail.com directly.";
+        }
+      })
+      .catch(() => {
+        formNote.textContent = "Something went wrong. Please email asilerguner@gmail.com directly.";
+      })
+      .finally(() => {
+        submitBtn.disabled = false;
+      });
   });
 }
 
