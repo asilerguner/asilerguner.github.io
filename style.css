@@ -216,6 +216,7 @@ a:hover { text-decoration: underline; }
   font-weight: 600;
   font-size: 0.92rem;
   text-decoration: none;
+  text-align: center;
   border: 1px solid transparent;
   transition: transform 0.15s ease, opacity 0.15s ease;
 }
