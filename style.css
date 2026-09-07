@@ -606,8 +606,29 @@ a:hover { text-decoration: underline; }
   border: 1px solid var(--divider);
   box-shadow: 0 12px 32px rgba(0,40,80,0.15);
   display: block;
+  cursor: zoom-in;
 }
 .screenshot-card figcaption { margin-top: 10px; font-size: 0.88rem; color: var(--muted); }
+
+/* Lightbox */
+.lightbox {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(0,10,25,0.9);
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  z-index: 1000;
+  cursor: zoom-out;
+}
+.lightbox.open { display: flex; }
+.lightbox img {
+  max-width: 90vw;
+  max-height: 90vh;
+  border-radius: 8px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+}
 .feature-card { position: relative; padding-top: 26px; }
 .feature-icon-tile {
   width: 48px;

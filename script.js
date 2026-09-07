@@ -86,3 +86,20 @@ if (revealEls.length && "IntersectionObserver" in window) {
 } else {
   revealEls.forEach((el) => el.classList.add("visible"));
 }
+
+const lightbox = document.getElementById("lightbox");
+if (lightbox) {
+  const lightboxImg = document.getElementById("lightbox-img");
+  document.querySelectorAll(".screenshot-card img").forEach((img) => {
+    img.addEventListener("click", () => {
+      lightboxImg.src = img.src;
+      lightboxImg.alt = img.alt;
+      lightbox.classList.add("open");
+    });
+  });
+  const closeLightbox = () => lightbox.classList.remove("open");
+  lightbox.addEventListener("click", closeLightbox);
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape") closeLightbox();
+  });
+}
