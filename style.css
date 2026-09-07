@@ -698,6 +698,48 @@ a:hover { text-decoration: underline; }
 .download-body .btn { margin-top: 10px; }
 .eula-note { margin-top: 28px; color: var(--muted); font-size: 0.9rem; }
 
+.trial-license {
+  margin-top: 24px;
+  background: var(--surface);
+  border: 1px solid var(--divider);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow-card);
+  padding: 24px 28px;
+}
+.trial-license h3 { color: var(--cyan); }
+.trial-license p { font-size: 0.92rem; }
+.trial-license-keys {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-top: 8px;
+}
+.trial-license-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: var(--surface-alt);
+  border-radius: var(--radius-sm);
+  padding: 12px 18px;
+  flex: 1;
+  min-width: 220px;
+}
+.trial-license-field span {
+  font-family: var(--font-heading);
+  font-size: 0.72rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+.trial-license-field code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.98rem;
+  font-weight: 600;
+  color: var(--navy);
+  word-break: break-all;
+}
+
 /* Motion & interaction */
 a, .btn, .project-card, .about-card, .cert-card, .service-card, .hobby-card, .org-badge, .timeline-item .org-badge,
 .utility-item, .download-card, .feature-card, .site-header {
