@@ -647,7 +647,7 @@ a:hover { text-decoration: underline; }
 
 .utility-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  grid-template-columns: repeat(7, 1fr);
   gap: 14px;
   margin-top: 24px;
 }
@@ -843,4 +843,8 @@ a, .btn, .project-card, .about-card, .cert-card, .service-card, .hobby-card, .or
   }
   .timeline-date { padding-top: 0; align-self: center; }
   .project-card-wide { flex-direction: column; }
+}
+
+@media (max-width: 900px) {
+  .utility-grid { grid-template-columns: repeat(2, 1fr); }
 }
