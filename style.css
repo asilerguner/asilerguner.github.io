@@ -670,7 +670,7 @@ a:hover { text-decoration: underline; }
 
 .download-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(3, 1fr);
   gap: 24px;
   margin-top: 8px;
 }
@@ -739,6 +739,7 @@ a:hover { text-decoration: underline; }
   color: var(--navy);
   word-break: break-all;
 }
+.trial-license-note { margin: 14px 0 0; font-size: 0.85rem; color: var(--muted); }
 
 /* Motion & interaction */
 a, .btn, .project-card, .about-card, .cert-card, .service-card, .hobby-card, .org-badge, .timeline-item .org-badge,
@@ -889,4 +890,5 @@ a, .btn, .project-card, .about-card, .cert-card, .service-card, .hobby-card, .or
 
 @media (max-width: 900px) {
   .utility-grid { grid-template-columns: repeat(2, 1fr); }
+  .download-grid { grid-template-columns: 1fr; }
 }
