@@ -545,6 +545,15 @@ a:hover { text-decoration: underline; }
   .cw-logo-wide { height: 60px; }
 }
 .cw-feature-grid { margin-top: 20px; }
+.cw-statement { background: var(--navy); padding: 44px 0; text-align: center; }
+.cw-statement-text {
+  color: #fff;
+  font-family: var(--font-heading);
+  font-weight: 800;
+  font-size: clamp(1.6rem, 4.5vw, 3rem);
+  letter-spacing: 0.01em;
+  margin: 0;
+}
 .solution-layout {
   display: flex;
   gap: 40px;
