@@ -171,8 +171,8 @@ a:hover { text-decoration: underline; }
 .social-row a svg { width: 18px; height: 18px; }
 .social-row a:hover { background: var(--cyan); color: #fff; }
 
-.hero-actions { display: flex; gap: 12px; justify-content: center; flex-wrap: wrap; width: 100%; }
-.hero-card .btn { flex: 1; text-align: center; min-width: 130px; }
+.hero-actions { display: flex; gap: 10px; justify-content: center; flex-wrap: nowrap; width: 100%; }
+.hero-card .btn { flex: 1; text-align: center; min-width: 0; padding-left: 14px; padding-right: 14px; white-space: nowrap; }
 
 .hero-info .about-text { color: var(--body-text); margin-bottom: 24px; }
 
