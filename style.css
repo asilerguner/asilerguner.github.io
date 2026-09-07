@@ -583,6 +583,22 @@ a:hover { text-decoration: underline; }
   .solution-layout { flex-direction: column; }
   .taskpane-shot { width: 200px; margin: 0 auto; }
 }
+
+.screenshot-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 24px;
+  margin-top: 24px;
+}
+.screenshot-card { margin: 0; text-align: center; }
+.screenshot-card img {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid var(--divider);
+  box-shadow: 0 12px 32px rgba(0,40,80,0.15);
+  display: block;
+}
+.screenshot-card figcaption { margin-top: 10px; font-size: 0.88rem; color: var(--muted); }
 .feature-card { position: relative; padding-top: 26px; }
 .feature-icon-tile {
   width: 48px;
