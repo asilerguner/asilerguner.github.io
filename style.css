@@ -498,19 +498,19 @@ a:hover { text-decoration: underline; }
 .cw-badge {
   display: inline-flex;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   background: #fff;
   box-shadow: 0 8px 20px rgba(0,0,0,0.2);
   color: var(--muted);
   font-family: var(--font-heading);
-  font-size: 0.78rem;
+  font-size: 0.85rem;
   font-weight: 600;
   letter-spacing: 0.04em;
-  padding: 8px 16px 8px 18px;
+  padding: 11px 22px 11px 24px;
   border-radius: 999px;
   margin-bottom: 24px;
 }
-.cw-badge-logo { height: 14px; width: auto; display: block; }
+.cw-badge-logo { height: 22px; width: auto; display: block; }
 .cw-tagline {
   color: rgba(255,255,255,0.88);
   font-size: 1.1rem;
@@ -534,15 +534,15 @@ a:hover { text-decoration: underline; }
 .cw-logo-wide-card {
   background: #fff;
   display: inline-block;
-  padding: 28px 56px;
+  padding: 34px 68px;
   border-radius: 16px;
   margin: 0 auto 24px;
   box-shadow: 0 14px 40px rgba(0,0,0,0.3);
 }
-.cw-logo-wide { display: block; height: 100px; width: auto; max-width: 100%; }
+.cw-logo-wide { display: block; height: 140px; width: auto; max-width: 100%; }
 @media (max-width: 600px) {
-  .cw-logo-wide-card { padding: 18px 28px; }
-  .cw-logo-wide { height: 60px; }
+  .cw-logo-wide-card { padding: 20px 32px; }
+  .cw-logo-wide { height: 85px; }
 }
 .cw-feature-grid { margin-top: 20px; }
 .cw-statement { background: var(--navy); padding: 44px 0; text-align: center; }
