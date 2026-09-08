@@ -37,7 +37,7 @@ if (contactForm) {
   const params = new URLSearchParams(window.location.search);
   if (params.get("topic") === "licensing") {
     document.getElementById("cf-message").value =
-      "Hi Asil, I'd like a proof-of-concept license key for ComplianceWorks to try with my team.";
+      "Hi Asil, I tried the ComplianceWorks proof of concept and wanted to get in touch.";
   }
 
   contactForm.addEventListener("submit", (e) => {
