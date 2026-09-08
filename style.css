@@ -879,8 +879,10 @@ a, .btn, .project-card, .about-card, .cert-card, .service-card, .hobby-card, .or
   .nav-dropdown-menu-inner {
     box-shadow: none;
     border: none;
+    border-left: 2px solid var(--divider);
     background: transparent;
-    padding: 4px 0 4px 14px;
+    padding: 4px 0 4px 20px;
+    margin-left: 4px;
   }
   .timeline-item {
     grid-template-columns: 56px 1fr;
