@@ -23,6 +23,13 @@ document.addEventListener("click", (e) => {
   document.querySelectorAll(".nav-dropdown.open").forEach((dropdown) => {
     if (!dropdown.contains(e.target)) dropdown.classList.remove("open");
   });
+  if (
+    nav.classList.contains("open") &&
+    !nav.contains(e.target) &&
+    !navToggle.contains(e.target)
+  ) {
+    nav.classList.remove("open");
+  }
 });
 
 const header = document.querySelector(".site-header");
