@@ -68,6 +68,7 @@ a:hover { text-decoration: underline; }
   border-bottom: 1px solid var(--divider);
 }
 .header-inner {
+  position: relative;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -82,14 +83,18 @@ a:hover { text-decoration: underline; }
 }
 .nav {
   position: absolute;
-  top: 60px;
-  left: 0;
+  top: calc(100% + 8px);
   right: 0;
+  left: auto;
+  width: 260px;
+  max-width: calc(100vw - 48px);
   background: #fff;
   flex-direction: column;
   align-items: flex-start;
-  padding: 16px 24px;
-  border-bottom: 1px solid var(--divider);
+  padding: 16px 20px;
+  border: 1px solid var(--divider);
+  border-radius: 12px;
+  box-shadow: var(--shadow-card-hover);
   display: none;
   gap: 16px;
 }
@@ -825,8 +830,6 @@ a, .btn, .project-card, .about-card, .cert-card, .service-card, .hobby-card, .or
   flex-direction: column;
   gap: 2px;
 }
-.nav-dropdown:hover .nav-dropdown-menu,
-.nav-dropdown:focus-within .nav-dropdown-menu,
 .nav-dropdown.open .nav-dropdown-menu { display: flex; }
 .nav-dropdown-menu a {
   padding: 9px 12px;
