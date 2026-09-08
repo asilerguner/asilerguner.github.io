@@ -80,7 +80,20 @@ a:hover { text-decoration: underline; }
   font-size: 1.2rem;
   text-decoration: none;
 }
-.nav { display: flex; gap: 28px; align-items: center; }
+.nav {
+  position: absolute;
+  top: 60px;
+  left: 0;
+  right: 0;
+  background: #fff;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px 24px;
+  border-bottom: 1px solid var(--divider);
+  display: none;
+  gap: 16px;
+}
+.nav.open { display: flex; }
 .nav a {
   font-family: var(--font-heading);
   color: var(--body-text);
@@ -89,7 +102,7 @@ a:hover { text-decoration: underline; }
 }
 .nav a:hover { color: var(--cyan); text-decoration: none; }
 .nav-toggle {
-  display: none;
+  display: block;
   background: none;
   border: none;
   font-size: 1.4rem;
@@ -794,21 +807,20 @@ a, .btn, .project-card, .about-card, .cert-card, .service-card, .hobby-card, .or
 /* Projects dropdown */
 .nav-dropdown { position: relative; }
 .nav-dropdown-menu {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  padding-top: 12px;
+  position: static;
+  padding-top: 0;
   display: none;
   flex-direction: column;
   z-index: 50;
 }
 .nav-dropdown-menu-inner {
-  background: #fff;
-  border: 1px solid var(--divider);
-  border-radius: 10px;
-  box-shadow: 0 12px 28px rgba(0,40,80,0.15);
-  padding: 8px;
-  min-width: 190px;
+  background: transparent;
+  border: none;
+  border-left: 2px solid var(--divider);
+  box-shadow: none;
+  padding: 4px 0 4px 20px;
+  margin-left: 4px;
+  min-width: 0;
   display: flex;
   flex-direction: column;
   gap: 2px;
@@ -857,34 +869,6 @@ a, .btn, .project-card, .about-card, .cert-card, .service-card, .hobby-card, .or
 
 /* Responsive */
 @media (max-width: 720px) {
-  .nav {
-    position: absolute;
-    top: 60px;
-    left: 0;
-    right: 0;
-    background: #fff;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 16px 24px;
-    border-bottom: 1px solid var(--divider);
-    display: none;
-    gap: 16px;
-  }
-  .nav.open { display: flex; }
-  .nav-toggle { display: block; }
-  .nav-dropdown-menu {
-    position: static;
-    display: flex;
-    padding-top: 0;
-  }
-  .nav-dropdown-menu-inner {
-    box-shadow: none;
-    border: none;
-    border-left: 2px solid var(--divider);
-    background: transparent;
-    padding: 4px 0 4px 20px;
-    margin-left: 4px;
-  }
   .timeline-item {
     grid-template-columns: 56px 1fr;
     grid-template-areas: "badge date" "content content";
