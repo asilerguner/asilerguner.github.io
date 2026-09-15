@@ -11,17 +11,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
-<body class="cw-locked">
-
-<div class="cw-gate" id="cwGate">
-  <form class="cw-gate-box" id="cwGateForm">
-    <h2>Restricted Access</h2>
-    <p>Enter the password to view this page.</p>
-    <input type="password" id="cwGateInput" placeholder="Password" autocomplete="off" autofocus>
-    <button type="submit" class="btn btn-primary">Unlock</button>
-    <p class="cw-gate-error" id="cwGateError" hidden>Incorrect password. Try again.</p>
-  </form>
-</div>
+<body>
 
 <header class="site-header">
   <div class="wrap header-inner">
@@ -288,32 +278,6 @@
   <img id="lightbox-img" src="" alt="">
 </div>
 
-<script>
-  (function () {
-    const PASSWORD = "adminpass";
-    const body = document.body;
-    const form = document.getElementById("cwGateForm");
-    const input = document.getElementById("cwGateInput");
-    const error = document.getElementById("cwGateError");
-
-    if (sessionStorage.getItem("cwUnlocked") === "true") {
-      body.classList.remove("cw-locked");
-    }
-
-    form.addEventListener("submit", (e) => {
-      e.preventDefault();
-      if (input.value === PASSWORD) {
-        sessionStorage.setItem("cwUnlocked", "true");
-        body.classList.remove("cw-locked");
-        error.hidden = true;
-      } else {
-        error.hidden = false;
-        input.value = "";
-        input.focus();
-      }
-    });
-  })();
-</script>
 <script src="script.js"></script>
 </body>
 </html>
