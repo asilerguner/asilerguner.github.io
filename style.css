@@ -86,7 +86,7 @@ a:hover { text-decoration: underline; }
   top: calc(100% + 8px);
   right: 0;
   left: auto;
-  width: 260px;
+  width: 300px;
   max-width: calc(100vw - 48px);
   background: #fff;
   flex-direction: column;
@@ -810,7 +810,7 @@ a, .btn, .project-card, .about-card, .cert-card, .service-card, .hobby-card, .or
 .nav > a:hover::after, .nav-dropdown > a:hover::after { transform: scaleX(1); transform-origin: left; }
 
 /* Projects dropdown */
-.nav-dropdown { position: relative; }
+.nav-dropdown { position: relative; width: 100%; }
 .nav-dropdown-menu {
   position: static;
   padding-top: 0;
@@ -823,8 +823,8 @@ a, .btn, .project-card, .about-card, .cert-card, .service-card, .hobby-card, .or
   border: none;
   border-left: 2px solid var(--divider);
   box-shadow: none;
-  padding: 4px 0 4px 20px;
-  margin-left: 4px;
+  padding: 4px 0 4px 10px;
+  margin: 6px 0 0 2px;
   min-width: 0;
   display: flex;
   flex-direction: column;
@@ -832,7 +832,7 @@ a, .btn, .project-card, .about-card, .cert-card, .service-card, .hobby-card, .or
 }
 .nav-dropdown.open .nav-dropdown-menu { display: flex; }
 .nav-dropdown-menu a {
-  padding: 9px 12px;
+  padding: 9px 10px;
   border-radius: 6px;
   font-size: 0.9rem;
   font-weight: 500;
