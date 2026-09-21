@@ -1,8 +1,0 @@
-<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
-  <polygon points="50,10 85,30 50,50 15,30" fill="#c9a876"/>
-  <polygon points="15,30 50,50 50,90 15,70" fill="#a3835a"/>
-  <polygon points="50,50 85,30 85,70 50,90" fill="#7d6344"/>
-  <!-- packing tape -->
-  <line x1="50" y1="10" x2="50" y2="50" stroke="#e8d9b5" stroke-width="3"/>
-  <line x1="50" y1="50" x2="50" y2="90" stroke="#e8d9b5" stroke-width="3"/>
-</svg>
