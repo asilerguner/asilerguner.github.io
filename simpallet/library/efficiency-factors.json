@@ -1,0 +1,4 @@
+[
+  { "id": "ef-200", "name": "Up to 200 lb Burst Test", "category": "Efficiency Factor", "maxBurstTestLb": 200, "factor": 0.13, "note": "CapePack's own Master Strength Database default (Material Factors > Efficiency Factors). Real Cape Pack Cloud export.", "icon": "icons/board.svg" },
+  { "id": "ef-over200", "name": "Over 200 lb Burst Test", "category": "Efficiency Factor", "maxBurstTestLb": 999999, "factor": 0.21, "note": "CapePack's own Master Strength Database default. Open-ended upper bracket, stored as a large sentinel value (999999) since JSON has no literal Infinity — same convention as storage-environment-factors.json's own open-ended brackets.", "icon": "icons/board.svg" }
+]

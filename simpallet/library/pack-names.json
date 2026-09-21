@@ -1,0 +1,10 @@
+[
+  { "id": "case-a", "name": "Case A", "category": "Pack Name", "note": "Illustrative example — CapePack's Pack Names database is meant to hold your own reusable SKU/pack labels, not a fixed catalog.", "icon": "icons/box.svg" },
+  { "id": "case-b", "name": "Case B", "category": "Pack Name", "note": "Illustrative example only — same caveat as Case A.", "icon": "icons/box.svg" },
+  { "id": "retail-unit", "name": "Retail Unit", "category": "Pack Name", "note": "Illustrative example only — same caveat as Case A.", "icon": "icons/box.svg" },
+  { "id": "master-case", "name": "Master Case", "category": "Pack Name", "note": "Illustrative example only — same caveat as Case A.", "icon": "icons/box.svg" },
+  { "id": "shipper", "name": "Shipper", "category": "Pack Name", "note": "Illustrative example only — same caveat as Case A.", "icon": "icons/box.svg" },
+  { "id": "display-case", "name": "Display Case", "category": "Pack Name", "note": "Illustrative example only — same caveat as Case A.", "icon": "icons/box.svg" },
+  { "id": "inner-pack", "name": "Inner Pack", "category": "Pack Name", "note": "Illustrative example only — same caveat as Case A.", "icon": "icons/box.svg" },
+  { "id": "tray", "name": "Tray", "category": "Pack Name", "note": "Illustrative example only — same caveat as Case A.", "icon": "icons/box.svg" }
+]

@@ -1,0 +1,6 @@
+[
+  { "id": "pf-simple", "name": "Simple", "category": "Printing Factor", "factor": 1, "note": "Real Cape Pack Cloud Case Configuration > Amount/Type of Printing entry (user-supplied export of their own account's library).", "icon": "icons/board.svg" },
+  { "id": "pf-broad", "name": "Broad", "category": "Printing Factor", "factor": 0.9, "note": "Real Cape Pack Cloud Case Configuration > Amount/Type of Printing entry (user-supplied export of their own account's library).", "icon": "icons/board.svg" },
+  { "id": "pf-complicated", "name": "Complicated", "category": "Printing Factor", "factor": 0.8, "note": "Real Cape Pack Cloud Case Configuration > Amount/Type of Printing entry (user-supplied export of their own account's library).", "icon": "icons/board.svg" },
+  { "id": "pf-complete-coverage", "name": "Complete Coverage", "category": "Printing Factor", "factor": 0.7, "note": "Real Cape Pack Cloud Case Configuration > Amount/Type of Printing entry (user-supplied export of their own account's library).", "icon": "icons/board.svg" }
+]

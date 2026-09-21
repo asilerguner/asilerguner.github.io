@@ -1,0 +1,9 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="50,28 80,44 50,60 20,44" fill="#e3c46a"/>
+  <polygon points="20,44 50,60 50,92 20,76" fill="#b89840"/>
+  <polygon points="50,60 80,44 80,76 50,92" fill="#8f7530"/>
+  <!-- gable-top ridge -->
+  <polygon points="35,20 65,20 50,28" fill="#c9ad55"/>
+  <polygon points="20,44 35,20 50,28 20,44" fill="#e3c46a"/>
+  <polygon points="80,44 65,20 50,28 80,44" fill="#b89840"/>
+</svg>

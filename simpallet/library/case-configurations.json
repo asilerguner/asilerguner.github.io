@@ -1,0 +1,58 @@
+[
+  {
+    "id": "cc-rsc-f0201",
+    "name": "RSC / F0201 (baseline)",
+    "category": "Case Configuration",
+    "caseTypeFactor": 1,
+    "note": "Regular Slotted Container (FEFCO 0201) — CapePack's own Case Configuration Database uses this as the 1.0 baseline every other case style is expressed relative to.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "cc-bliss",
+    "name": "Bliss",
+    "category": "Case Configuration",
+    "caseTypeFactor": 1.5,
+    "note": "CapePack's own default Case Types factor: 50% stronger than an RSC.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "cc-bliss2",
+    "name": "Bliss2",
+    "category": "Case Configuration",
+    "caseTypeFactor": 1.75,
+    "note": "CapePack's own default Case Types factor: 75% stronger than an RSC.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "cc-die-cut",
+    "name": "Die Cut",
+    "category": "Case Configuration",
+    "caseTypeFactor": 0.9,
+    "note": "CapePack's own default Case Types factor: 10% weaker than an RSC.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "cc-end-loader",
+    "name": "End Loader",
+    "category": "Case Configuration",
+    "caseTypeFactor": 1.2,
+    "note": "CapePack's own default Case Types factor: 20% stronger than an RSC.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "cc-hsc",
+    "name": "HSC",
+    "category": "Case Configuration",
+    "caseTypeFactor": 0.85,
+    "note": "Half Slotted Container. CapePack's own default Case Types factor: 15% weaker than an RSC.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "cc-hsc-and-cover",
+    "name": "HSC and Cover",
+    "category": "Case Configuration",
+    "caseTypeFactor": 1.25,
+    "note": "Half Slotted Container with a separate cover/cap. CapePack's own default Case Types factor: 25% stronger than an RSC.",
+    "icon": "icons/board.svg"
+  }
+]

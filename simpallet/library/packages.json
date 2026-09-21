@@ -1,0 +1,53 @@
+[
+  {
+    "id": "pkg-std-box",
+    "name": "Std Box",
+    "category": "Package",
+    "label": "1",
+    "packType": "Standard Box",
+    "description": "Red Box",
+    "length": 350,
+    "width": 300,
+    "height": 250,
+    "weight": 15,
+    "absoluteMaximum": 25,
+    "desiredMinimum": 1,
+    "color": "#dc2626",
+    "note": "Confirmed from a real Cape Pack Cloud Packages export (user-supplied, 3-row table + real Add form). The table's own column-to-value mapping had to be inferred from a flattened text paste (no image was available) — Pack Name/Label/Pack Type specifically, since the real table shows an unlabeled thumbnail-icon column between Pack Name and Label that doesn't carry through as clean text. \"Standard Box\" as Pack Type is the real Add form's own shown default. No real value was available for Dimensions Vertical or Change Color's exact hex (color here is a representative red matching the real \"Red Box\" description, not a confirmed real hex) or Tray Wall Height (shown \"-\" on the real row).",
+    "icon": "icons/box.svg"
+  },
+  {
+    "id": "pkg-box",
+    "name": "Box",
+    "category": "Package",
+    "label": "3",
+    "packType": "End Loader Box",
+    "description": "Green Box",
+    "length": 450,
+    "width": 350,
+    "height": 400,
+    "weight": 20,
+    "absoluteMaximum": 35,
+    "desiredMinimum": 1,
+    "color": "#16a34a",
+    "note": "Confirmed from a real Cape Pack Cloud Packages export (user-supplied) — same column-mapping caveat as \"Std Box\". \"End Loader Box\" as Pack Type corroborates the real \"End Loader\" Pack Type Library entry already confirmed elsewhere this session (shapes.json's own \"Case/Tray Pack Type\" category) — not merged with it, no real \"Select From Library\" button was shown on this Add form the way Cases and Trays has one. Color is a representative green matching \"Green Box\", not a confirmed real hex.",
+    "icon": "icons/box.svg"
+  },
+  {
+    "id": "pkg-case",
+    "name": "Case",
+    "category": "Package",
+    "label": "2",
+    "packType": "RSC Box",
+    "description": "Cyan Box",
+    "length": 350,
+    "width": 200,
+    "height": 250,
+    "weight": 20,
+    "absoluteMaximum": 30,
+    "desiredMinimum": 1,
+    "color": "#06b6d4",
+    "note": "Confirmed from a real Cape Pack Cloud Packages export (user-supplied) — same column-mapping caveat as \"Std Box\". \"RSC Box\" as Pack Type corroborates the real \"RSC\" Pack Type Library entry already confirmed elsewhere this session. Color is a representative cyan matching \"Cyan Box\", not a confirmed real hex.",
+    "icon": "icons/box.svg"
+  }
+]

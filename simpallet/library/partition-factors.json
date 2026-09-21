@@ -1,0 +1,250 @@
+[
+  {
+    "id": "ptf-1",
+    "name": "1",
+    "category": "Partition Factor",
+    "factor": 0.25,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "ptf-2",
+    "name": "2",
+    "category": "Partition Factor",
+    "factor": 0.26,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "ptf-3",
+    "name": "3",
+    "category": "Partition Factor",
+    "factor": 0.27,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "ptf-4",
+    "name": "4",
+    "category": "Partition Factor",
+    "factor": 0.29,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "ptf-5",
+    "name": "5",
+    "category": "Partition Factor",
+    "factor": 0.44,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "ptf-6",
+    "name": "6",
+    "category": "Partition Factor",
+    "factor": 0.5,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "ptf-7",
+    "name": "7",
+    "category": "Partition Factor",
+    "factor": 0.57,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "ptf-8",
+    "name": "8",
+    "category": "Partition Factor",
+    "factor": 0.58,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "ptf-9",
+    "name": "9",
+    "category": "Partition Factor",
+    "factor": 0.6,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "ptf-10",
+    "name": "10",
+    "category": "Partition Factor",
+    "factor": 0.61,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "ptf-11",
+    "name": "11",
+    "category": "Partition Factor",
+    "factor": 0.63,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "ptf-12",
+    "name": "12",
+    "category": "Partition Factor",
+    "factor": 0.7,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "ptf-13",
+    "name": "13",
+    "category": "Partition Factor",
+    "factor": 0.8,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "ptf-14",
+    "name": "14",
+    "category": "Partition Factor",
+    "factor": 0.82,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "ptf-15",
+    "name": "15",
+    "category": "Partition Factor",
+    "factor": 0.88,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "ptf-16",
+    "name": "16",
+    "category": "Partition Factor",
+    "factor": 0.89,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "ptf-17",
+    "name": "17",
+    "category": "Partition Factor",
+    "factor": 0.9,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "ptf-18",
+    "name": "18",
+    "category": "Partition Factor",
+    "factor": 0.95,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "ptf-19",
+    "name": "19",
+    "category": "Partition Factor",
+    "factor": 0.96,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "ptf-20",
+    "name": "20",
+    "category": "Partition Factor",
+    "factor": 1.01,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "ptf-21",
+    "name": "21",
+    "category": "Partition Factor",
+    "factor": 1.08,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "ptf-22",
+    "name": "22",
+    "category": "Partition Factor",
+    "factor": 1.1,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "ptf-23",
+    "name": "23",
+    "category": "Partition Factor",
+    "factor": 1.13,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "ptf-24",
+    "name": "24",
+    "category": "Partition Factor",
+    "factor": 1.17,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "ptf-25",
+    "name": "25",
+    "category": "Partition Factor",
+    "factor": 1.24,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "ptf-26",
+    "name": "26",
+    "category": "Partition Factor",
+    "factor": 1.27,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "ptf-27",
+    "name": "27",
+    "category": "Partition Factor",
+    "factor": 1.29,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "ptf-28",
+    "name": "28",
+    "category": "Partition Factor",
+    "factor": 1.33,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "ptf-29",
+    "name": "29",
+    "category": "Partition Factor",
+    "factor": 1.48,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "ptf-30",
+    "name": "30",
+    "category": "Partition Factor",
+    "factor": 1.52,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "ptf-31",
+    "name": "31",
+    "category": "Partition Factor",
+    "factor": 2.56,
+    "note": "Real Cape Pack Cloud Case Configuration > Divider/Partition Factors entry (user-supplied export of their own account's library). Name is the number of dividers/partitions.",
+    "icon": "icons/board.svg"
+  }
+]

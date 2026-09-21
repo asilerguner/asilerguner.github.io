@@ -1,0 +1,10 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <polygon points="30,20 90,32 78,42 18,30" fill="#c5c9cc"/>
+  <polygon points="18,30 78,42 78,72 18,60" fill="#9298a0"/>
+  <polygon points="78,42 90,32 90,62 78,72" fill="#6b7178"/>
+  <!-- door seam lines -->
+  <line x1="83" y1="35" x2="83" y2="65" stroke="#4d5257" stroke-width="1.2"/>
+  <line x1="30" y1="32" x2="30" y2="60" stroke="#7a7f85" stroke-width="1"/>
+  <line x1="48" y1="35" x2="48" y2="63" stroke="#7a7f85" stroke-width="1"/>
+  <line x1="65" y1="38" x2="65" y2="67" stroke="#7a7f85" stroke-width="1"/>
+</svg>

@@ -1,0 +1,7 @@
+[
+  { "id": "flute-a", "name": "A Flute", "category": "Flute Takeup Factor", "flute": "A", "takeupFactor": 1.53, "caliperIn": 0.184, "note": "CapePack's own Master Strength Database default (Material Factors > Take Up Factors). The thickest common single-wall flute.", "icon": "icons/board.svg" },
+  { "id": "flute-b", "name": "B Flute", "category": "Flute Takeup Factor", "flute": "B", "takeupFactor": 1.33, "caliperIn": 0.097, "note": "CapePack's own Master Strength Database default.", "icon": "icons/board.svg" },
+  { "id": "flute-c", "name": "C Flute", "category": "Flute Takeup Factor", "flute": "C", "takeupFactor": 1.42, "caliperIn": 0.142, "note": "CapePack's own Master Strength Database default. The most common general-purpose flute.", "icon": "icons/board.svg" },
+  { "id": "flute-e", "name": "E Flute", "category": "Flute Takeup Factor", "flute": "E", "takeupFactor": 1.25, "caliperIn": 0.062, "note": "CapePack's own Master Strength Database default. A thin flute used for retail/folding-carton-adjacent packaging.", "icon": "icons/board.svg" },
+  { "id": "flute-f", "name": "F Flute", "category": "Flute Takeup Factor", "flute": "F", "takeupFactor": 1.23, "caliperIn": 0.045, "note": "CapePack's own Master Strength Database default. The thinnest common flute, used for micro-flute retail packaging.", "icon": "icons/board.svg" }
+]

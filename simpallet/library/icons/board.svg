@@ -1,0 +1,7 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <rect x="15" y="35" width="70" height="30" rx="2" fill="#c9a876"/>
+  <!-- corrugated flute edge -->
+  <path d="M15,35 Q22,28 29,35 T43,35 T57,35 T71,35 T85,35" fill="none" stroke="#8a6a3d" stroke-width="3"/>
+  <rect x="15" y="35" width="70" height="4" fill="#e8d9b5"/>
+  <rect x="15" y="61" width="70" height="4" fill="#a3835a"/>
+</svg>

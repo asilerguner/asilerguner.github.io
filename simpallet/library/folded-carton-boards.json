@@ -1,0 +1,110 @@
+[
+  {
+    "id": "fcb-m250sbs",
+    "name": "M-250SBS",
+    "category": "Folded Carton Board",
+    "boardThickness": 0.35,
+    "fluffFactor": 1.00,
+    "note": "Confirmed from a real Cape Pack Cloud Folded Carton Factors > Boards export (user-supplied, 12-row table, shown under that screen's \"Metric\" mode — Thickness is mm). Replaces this app's earlier 4 invented \"16/18/20/24pt SBS\" placeholder entries (no real CapePack field spec had been available for this database until now).",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "fcb-m300sbs",
+    "name": "M300SBS",
+    "category": "Folded Carton Board",
+    "boardThickness": 0.40,
+    "fluffFactor": 1.20,
+    "note": "Confirmed from a real Cape Pack Cloud Folded Carton Factors > Boards export (user-supplied).",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "fcb-m350sbs",
+    "name": "M350SBS",
+    "category": "Folded Carton Board",
+    "boardThickness": 0.45,
+    "fluffFactor": 1.20,
+    "note": "Confirmed from a real Cape Pack Cloud Folded Carton Factors > Boards export (user-supplied).",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "fcb-m400sbs",
+    "name": "M400SBS",
+    "category": "Folded Carton Board",
+    "boardThickness": 0.55,
+    "fluffFactor": 1.20,
+    "note": "Confirmed from a real Cape Pack Cloud Folded Carton Factors > Boards export (user-supplied).",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "fcb-m400wcc",
+    "name": "M400WCC",
+    "category": "Folded Carton Board",
+    "boardThickness": 0.45,
+    "fluffFactor": 1.20,
+    "note": "Confirmed from a real Cape Pack Cloud Folded Carton Factors > Boards export (user-supplied).",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "fcb-m450sbs",
+    "name": "M450SBS",
+    "category": "Folded Carton Board",
+    "boardThickness": 0.60,
+    "fluffFactor": 1.20,
+    "note": "Confirmed from a real Cape Pack Cloud Folded Carton Factors > Boards export (user-supplied).",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "fcb-m450wcc",
+    "name": "M450WCC",
+    "category": "Folded Carton Board",
+    "boardThickness": 0.50,
+    "fluffFactor": 1.20,
+    "note": "Confirmed from a real Cape Pack Cloud Folded Carton Factors > Boards export (user-supplied).",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "fcb-m500wcc",
+    "name": "M500WCC",
+    "category": "Folded Carton Board",
+    "boardThickness": 0.55,
+    "fluffFactor": 1.20,
+    "note": "Confirmed from a real Cape Pack Cloud Folded Carton Factors > Boards export (user-supplied).",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "fcb-m550wcc",
+    "name": "M550WCC",
+    "category": "Folded Carton Board",
+    "boardThickness": 5.00,
+    "fluffFactor": 1.20,
+    "note": "Kept exactly as shown in the real user-supplied export despite being a clear outlier against the rest of this table (0.35-0.75mm) — could be a genuine CapePack data-entry quirk or a paste artifact on the source screen, not independently resolvable from a screenshot alone, so not silently \"corrected\" to a guessed value.",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "fcb-m600wcc",
+    "name": "M600WCC",
+    "category": "Folded Carton Board",
+    "boardThickness": 0.65,
+    "fluffFactor": 1.30,
+    "note": "Confirmed from a real Cape Pack Cloud Folded Carton Factors > Boards export (user-supplied).",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "fcb-m650wcc",
+    "name": "M650WCC",
+    "category": "Folded Carton Board",
+    "boardThickness": 0.70,
+    "fluffFactor": 1.40,
+    "note": "Confirmed from a real Cape Pack Cloud Folded Carton Factors > Boards export (user-supplied).",
+    "icon": "icons/board.svg"
+  },
+  {
+    "id": "fcb-m700wcc",
+    "name": "M700WCC",
+    "category": "Folded Carton Board",
+    "boardThickness": 0.75,
+    "fluffFactor": 1.50,
+    "note": "Confirmed from a real Cape Pack Cloud Folded Carton Factors > Boards export (user-supplied).",
+    "icon": "icons/board.svg"
+  }
+]

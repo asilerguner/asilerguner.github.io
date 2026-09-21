@@ -1,0 +1,4 @@
+[
+  { "id": "fof-base", "name": "Base (Horizontal)", "category": "Fluting Orientation Factor", "factor": 0.8, "note": "Real Cape Pack Cloud Case Configuration > Fluting Run Parallel to entry (user-supplied export of their own account's library).", "icon": "icons/board.svg" },
+  { "id": "fof-height", "name": "Height (Vertical)", "category": "Fluting Orientation Factor", "factor": 1, "note": "Real Cape Pack Cloud Case Configuration > Fluting Run Parallel to entry (user-supplied export of their own account's library).", "icon": "icons/board.svg" }
+]

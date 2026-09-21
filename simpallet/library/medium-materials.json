@@ -1,0 +1,8 @@
+[
+  { "id": "mm-23", "name": "23 lb/msf Medium", "category": "Medium Material", "basisWeight": 23, "ringCrush": 30, "stfi": 11, "note": "CapePack's own Master Strength Database default (Material Factors > Medium Materials).", "icon": "icons/board.svg" },
+  { "id": "mm-26", "name": "26 lb/msf Medium", "category": "Medium Material", "basisWeight": 26, "ringCrush": 36, "stfi": 13, "note": "CapePack's own Master Strength Database default. Corrected from an earlier ringCrush=32/stfi=12.63 entry — both fields disagreed with the real screen while every other row matched exactly.", "icon": "icons/board.svg" },
+  { "id": "mm-30", "name": "30 lb/msf Medium", "category": "Medium Material", "basisWeight": 30, "ringCrush": 46, "stfi": 14.82, "note": "CapePack's own Master Strength Database default.", "icon": "icons/board.svg" },
+  { "id": "mm-33", "name": "33 lb/msf Medium", "category": "Medium Material", "basisWeight": 33, "ringCrush": 51, "stfi": 16.47, "note": "CapePack's own Master Strength Database default.", "icon": "icons/board.svg" },
+  { "id": "mm-36", "name": "36 lb/msf Medium", "category": "Medium Material", "basisWeight": 36, "ringCrush": 70, "stfi": 19, "note": "CapePack's own Master Strength Database default.", "icon": "icons/board.svg" },
+  { "id": "mm-40", "name": "40 lb/msf Medium", "category": "Medium Material", "basisWeight": 40, "ringCrush": 73, "stfi": 20, "note": "CapePack's own Master Strength Database default.", "icon": "icons/board.svg" }
+]

@@ -1,0 +1,6 @@
+[
+  { "id": "cpf-1", "name": "L >= H, H > 1.5xW", "category": "Case Proportion Factor", "factor": 0.95, "note": "Real Cape Pack Cloud Case Configuration > If Case Proportion are entry (user-supplied export of their own account's library). L=Length, H=Height, W=Width of the case.", "icon": "icons/board.svg" },
+  { "id": "cpf-2", "name": "L > H, W > 1.5xH", "category": "Case Proportion Factor", "factor": 1.1, "note": "Real Cape Pack Cloud Case Configuration > If Case Proportion are entry (user-supplied export of their own account's library). L=Length, H=Height, W=Width of the case.", "icon": "icons/board.svg" },
+  { "id": "cpf-3", "name": "L > H, W <= 1.5xH & H <= 1.5xW", "category": "Case Proportion Factor", "factor": 1, "note": "Real Cape Pack Cloud Case Configuration > If Case Proportion are entry (user-supplied export of their own account's library). L=Length, H=Height, W=Width of the case.", "icon": "icons/board.svg" },
+  { "id": "cpf-4", "name": "H > L", "category": "Case Proportion Factor", "factor": 1.05, "note": "Real Cape Pack Cloud Case Configuration > If Case Proportion are entry (user-supplied export of their own account's library). L=Length, H=Height, W=Width of the case.", "icon": "icons/board.svg" }
+]
