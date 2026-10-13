@@ -762,6 +762,7 @@ a:hover { text-decoration: underline; }
   word-break: break-all;
 }
 .trial-license-note { margin: 14px 0 0; font-size: 0.85rem; color: var(--muted); }
+.trial-license-download { justify-content: flex-start; margin-top: 12px; }
 
 /* Motion & interaction */
 a, .btn, .project-card, .about-card, .cert-card, .service-card, .hobby-card, .org-badge, .timeline-item .org-badge,
