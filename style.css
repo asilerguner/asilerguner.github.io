@@ -842,6 +842,8 @@ a, .btn, .project-card, .about-card, .cert-card, .service-card, .hobby-card, .or
 }
 .nav-dropdown-menu a:hover { background: var(--surface-alt); text-decoration: none; color: var(--navy); }
 .nav-dropdown-divider { height: 1px; background: var(--divider); margin: 6px 4px; }
+/* Indent the individual projects under "All Software Development" */
+.nav-dropdown-menu-inner a:not(:first-child) { padding-left: 26px; }
 
 /* Sticky header shadow on scroll */
 .site-header.scrolled { box-shadow: 0 4px 16px rgba(0,20,40,0.08); }
