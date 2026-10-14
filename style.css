@@ -909,3 +909,6 @@ a, .btn, .project-card, .about-card, .cert-card, .service-card, .hobby-card, .or
   cursor: pointer;
 }
 .cw-faq details p { margin: 12px 0 0; color: var(--muted); }
+.cw-admin-grid { grid-template-columns: repeat(3, 1fr); }
+@media (max-width: 900px) { .cw-admin-grid { grid-template-columns: repeat(2, 1fr); } }
+@media (max-width: 600px) { .cw-admin-grid { grid-template-columns: 1fr; } }
