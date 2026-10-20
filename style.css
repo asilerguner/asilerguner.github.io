@@ -913,4 +913,4 @@ a, .btn, .project-card, .about-card, .cert-card, .service-card, .hobby-card, .or
 @media (max-width: 900px) { .cw-admin-grid { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 600px) { .cw-admin-grid { grid-template-columns: 1fr; } }
 .logo { display: inline-flex; align-items: center; }
-.logo-mark { height: 28px; width: auto; display: block; }
+.logo-mark { height: 30px; width: auto; display: block; }
