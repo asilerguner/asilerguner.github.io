@@ -12,6 +12,21 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/style.css">
+<style>
+.ot-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:18px;margin:24px 0}
+.ot-card{background:var(--surface);border:1px solid var(--divider);border-radius:var(--radius);padding:22px;box-shadow:var(--shadow-card)}
+.ot-card h3{font-size:1.05rem;margin-bottom:6px}.ot-card p{margin:0;font-size:.94rem}
+.ot-steps{counter-reset:s;list-style:none;padding:0;margin:20px 0;max-width:820px}
+.ot-steps li{counter-increment:s;position:relative;padding:0 0 22px 56px}
+.ot-steps li::before{content:counter(s);position:absolute;left:0;top:0;width:38px;height:38px;border-radius:50%;background:var(--navy);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;font-family:var(--font-heading)}
+.ot-steps b{display:block;color:var(--navy);font-family:var(--font-heading);margin-bottom:2px}
+.ot-toc{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 8px}.ot-toc a{border:1px solid var(--divider);border-radius:99px;padding:6px 14px;font-size:.88rem;background:var(--surface)}
+.ot-guide h3{margin-top:30px}.ot-guide p,.ot-guide li{max-width:780px}
+.ot-note{background:var(--surface-alt);border-left:4px solid var(--cyan);padding:14px 18px;border-radius:var(--radius-sm);max-width:780px;margin:16px 0}
+.ot-table{border-collapse:collapse;width:100%;max-width:820px;font-size:.93rem}.ot-table td,.ot-table th{border-bottom:1px solid var(--divider);padding:10px 12px;text-align:left;vertical-align:top}
+.ot-price{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;max-width:700px}
+.ot-price .ot-card{text-align:center}.ot-price strong{display:block;font-size:2rem;color:var(--navy);font-family:var(--font-heading)}
+</style>
 </head>
 <body>
 
@@ -20,7 +35,10 @@
     <a href="/index.html" class="logo" aria-label="Asil Ergüner"><img src="/assets/brand/ae-mark.svg" alt="AE" class="logo-mark"></a>
     <nav class="nav" id="nav">
       <a href="/index.html#projects">← All Projects</a>
-      <a href="/ontime/">Ontime</a>
+      <a href="#features">Features</a>
+      <a href="#setup">Set up</a>
+      <a href="#guide">User guide</a>
+      <a href="#pricing">Pricing</a>
       <a href="https://ontime.asilerguner.com/privacy/">Privacy</a>
       <a href="https://ontime.asilerguner.com/support/">Support</a>
     </nav>
@@ -43,23 +61,93 @@
     </div>
   </section>
 
-  <section class="section">
+  <section class="section" id="features">
     <div class="wrap">
       <h2>A calm way to run your appointments</h2>
-      <p class="about-text">Ontime is an appointment manager for independent practices and small businesses: salons, clinics, therapists, trainers, tutors and anyone who works by appointment. Keep your calendar, clients and invoices in one app, and let customers book themselves from a web page that needs no app.</p>
-      <ul class="chip-list">
-        <li>Day and week calendar, no double bookings</li>
-        <li>Services, working hours and team members</li>
-        <li>Online booking page for any browser</li>
-        <li>Automatic confirmation emails</li>
-        <li>Reminder emails the day before</li>
-        <li>Clients and invoices</li>
-        <li>Booking page in 23 languages</li>
-      </ul>
+      <p class="about-text">Ontime is an appointment manager for independent practices and small businesses: salons, clinics, therapists, trainers, tutors and anyone who works by appointment. Your calendar, clients, invoices and online bookings live in one native app for iPhone, iPad and Mac, and customers book from a web page that needs no app.</p>
+      <div class="ot-toc"><a href="#features">What it does</a><a href="#setup">Set up your business</a><a href="#booking">Online booking</a><a href="#guide">User guide</a><a href="#faq">Troubleshooting</a><a href="#pricing">Pricing</a></div>
+      <div class="ot-grid">
+        <div class="ot-card"><h3>Calendar without double bookings</h3><p>Day and week views, working hours per person, buffers between visits. Ontime refuses overlaps.</p></div>
+        <div class="ot-card"><h3>Book the next visit in seconds</h3><p>After a visit, pick a rhythm (2, 4, 6 weeks). Ontime shows your free times and the whole day, then books the next one.</p></div>
+        <div class="ot-card"><h3>Clients, with colour groups</h3><p>Contact details, history, notes and bills per client. Give each group, such as an insurance company, its own colour so it is clear on the calendar.</p></div>
+        <div class="ot-card"><h3>Online booking page</h3><p>Customers choose a service, a person and a free time. Name, phone and email are required. Available in 23 languages.</p></div>
+        <div class="ot-card"><h3>Automatic emails</h3><p>Confirmation when booked and a reminder the day before, in the customer's own language.</p></div>
+        <div class="ot-card"><h3>Team and roles</h3><p>Invite colleagues with a code. Owner, admin, practitioner, front desk and read-only roles decide who sees and changes what.</p></div>
+        <div class="ot-card"><h3>Invoices and receipts</h3><p>Your details and terms on every invoice. Payments are recorded; Ontime never stores card numbers.</p></div>
+        <div class="ot-card"><h3>Works offline, syncs everywhere</h3><p>Changes made without a connection wait and upload when you are back online.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section section-alt" id="setup">
+    <div class="wrap">
+      <h2>Set up your company profile</h2>
+      <p class="about-text">Setup takes about ten minutes. You can change everything later.</p>
+      <ol class="ot-steps">
+        <li><b>Create your business</b>Open the app and choose <em>Sign in</em> to keep your data in the cloud and share it with a team, or <em>Use on this device only</em>. Enter your name, the business name, type, currency and time zone.</li>
+        <li><b>Add your services</b>More &rarr; <em>Services</em>. Give each service a name, length and price, and an optional buffer after each appointment.</li>
+        <li><b>Add your team and working hours</b>More &rarr; <em>Team</em>. Set each person's weekly hours. Nothing can be booked outside them.</li>
+        <li><b>Fill in your invoice details</b>More &rarr; <em>Invoice template</em>. Add business details, how to pay and your terms once; they appear on every invoice.</li>
+        <li><b>Turn on online booking</b>More &rarr; <em>Online booking</em>. Choose which services and people appear, copy your link or embed code, and press <em>Open booking page</em> to see what customers see.</li>
+        <li><b>Set your booking rules</b>Minimum notice, how far ahead, time steps, a gap after each booking and days off. Enter your email so customers can reply to confirmations.</li>
+        <li><b>Add your clients</b>Clients tab &rarr; +. Phone and email are needed to send messages.</li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="section" id="booking">
+    <div class="wrap">
       <h2>How online booking works</h2>
-      <p class="about-text">Customers pick a service and a free time on your booking page. You choose whether each request waits for your answer, or whether free times are booked at once, added to your calendar and confirmed by email without you lifting a finger. The customer gets the email in their own language, and you get a notification on your phone.</p>
+      <p class="about-text">Customers pick a service, a person and a free time on your booking page and enter their name, phone and email. You choose how requests are handled: wait for your answer, or let free times book at once, appear in your calendar and be confirmed by email. The customer receives the email in their own language, and you get a notification on your phone.</p>
+      <div class="ot-note">Customers become clients when a booking is confirmed. Times shown on the page are refreshed whenever you open the app or change rules; if a time is taken in the meantime, you are told before anything is confirmed.</div>
+    </div>
+  </section>
+
+  <section class="section section-alt ot-guide" id="guide">
+    <div class="wrap">
+      <h2>User guide</h2>
+      <h3>Daily work</h3>
+      <ul>
+        <li><b>Today</b> lists the day's appointments. Tap one to mark it arrived, finished or no-show, or to cancel it.</li>
+        <li><b>Calendar</b> has day and week views. Tap an empty time to book, or tap an appointment to change it.</li>
+        <li><b>Clients</b> holds details, history, notes and bills for each customer.</li>
+        <li><b>Billing</b> lists invoices and records cash, card-terminal or transfer payments.</li>
+      </ul>
+      <h3>Book the next visit</h3>
+      <p>Open a finished appointment and choose <em>Book next</em>. Pick how many weeks ahead; Ontime suggests the nearest free time, shows your free times for the chosen day and the whole day with your other appointments, and books it when you confirm. Tap a free spot on the day view to choose that time.</p>
+      <h3>Colour groups for clients</h3>
+      <p>In a client's details, set a <em>Group</em> such as an insurance company, and choose a colour. Every client in the same group shares it, and appointments show in that colour on the calendar with a legend.</p>
+      <h3>Messages and reminders</h3>
+      <p>Ontime prepares the message and opens Messages or Mail; you press send. Edit the reminder, confirmed, declined and cancelled texts under More &rarr; <em>Message templates</em>. Words in double braces are replaced with the customer's name, date, time and person.</p>
+      <h3>Team and sync</h3>
+      <p>Signed in, your business is stored in the cloud and teammates join with an invite code. More &rarr; <em>Account &amp; sync</em> shows the state and offers <em>Sync now</em>.</p>
+      <h3>Deleting things</h3>
+      <ul>
+        <li>A service with bookings cannot be deleted; switch it off instead. Existing appointments keep their time and price.</li>
+        <li>A person can be deactivated; their appointments stay and they are no longer offered for booking.</li>
+        <li>A client can be deleted with all their records, which also frees their times.</li>
+      </ul>
+      <h3 id="faq">Troubleshooting</h3>
+      <table class="ot-table">
+        <tr><th>Problem</th><th>What to try</th></tr>
+        <tr><td>Booking page shows no times</td><td>Check that the service and person are switched on for online booking, the person has working hours, and your notice period and days off are not blocking everything.</td></tr>
+        <tr><td>A request cannot be confirmed</td><td>The time was taken, is now a day off, or the service or person was switched off. Decline and offer another time.</td></tr>
+        <tr><td>No alert for a request</td><td>Check notification permission and Background App Refresh in iOS Settings, and open the app to see the badge.</td></tr>
+        <tr><td>Sync says waiting</td><td>Check the internet connection, then use <em>Sync now</em>.</td></tr>
+      </table>
+      <p style="margin-top:20px">Need help? <a href="https://ontime.asilerguner.com/support/">Contact support</a>. Your data stays yours: see the <a href="https://ontime.asilerguner.com/privacy/">privacy policy</a>.</p>
+    </div>
+  </section>
+
+  <section class="section" id="pricing">
+    <div class="wrap">
       <h2>Pricing</h2>
-      <p class="about-text">A 30-day free trial, then a subscription: $10 per month or $99 per year. After the trial you can still view and export everything; creating new appointments and accepting online bookings needs a subscription. Prices are shown in the App Store at launch.</p>
+      <p class="about-text">Try everything free for 30 days. Then choose a plan. Prices are shown in the App Store.</p>
+      <div class="ot-price">
+        <div class="ot-card"><h3>Monthly</h3><strong>$10</strong><p>per month</p></div>
+        <div class="ot-card"><h3>Yearly</h3><strong>$99</strong><p>per year</p></div>
+      </div>
+      <p class="about-text" style="margin-top:18px">After the trial you can still view and export all your data; creating new appointments and accepting online bookings needs a subscription.</p>
     </div>
   </section>
 </main>
