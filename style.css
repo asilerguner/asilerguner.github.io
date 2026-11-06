@@ -822,28 +822,25 @@ a, .btn, .project-card, .about-card, .cert-card, .service-card, .hobby-card, .or
 .nav-dropdown-menu-inner {
   background: transparent;
   border: none;
-  border-left: 2px solid var(--divider);
   box-shadow: none;
-  padding: 4px 0 4px 10px;
-  margin: 6px 0 0 2px;
+  padding: 0;
+  margin: 2px 0 0 0;
   min-width: 0;
   display: flex;
   flex-direction: column;
-  gap: 2px;
+  gap: 0;
 }
 .nav-dropdown.open .nav-dropdown-menu { display: flex; }
 .nav-dropdown-menu a {
-  padding: 9px 10px;
+  padding: 7px 0 7px 14px;
   border-radius: 6px;
-  font-size: 0.9rem;
+  font-size: 0.88rem;
   font-weight: 500;
   color: var(--body-text);
   white-space: nowrap;
 }
 .nav-dropdown-menu a:hover { background: var(--surface-alt); text-decoration: none; color: var(--navy); }
-.nav-dropdown-divider { height: 1px; background: var(--divider); margin: 6px 4px; }
-/* Indent the individual projects under "All Software Development" */
-.nav-dropdown-menu-inner a:not(:first-child) { padding-left: 26px; }
+.nav-dropdown-divider { height: 1px; background: var(--divider); margin: 4px 14px 4px 14px; }
 
 /* Sticky header shadow on scroll */
 .site-header.scrolled { box-shadow: 0 4px 16px rgba(0,20,40,0.08); }
