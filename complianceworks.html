@@ -3,8 +3,72 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ComplianceWorks | Protected</title>
-<meta name="robots" content="noindex, nofollow">
+<title>CAD Standards Add-in for SolidWorks | ComplianceWorks for CAD Administrators</title>
+<meta name="description" content="ComplianceWorks is a CAD standards add-in for SolidWorks, built for CAD administrators. Define your company's CAD standards once, enforce them for every engineer from one control panel, and roll out updates with no reinstalls. Free to evaluate.">
+<link rel="canonical" href="https://asilerguner.com/complianceworks.html">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Asil Ergüner">
+<meta property="og:title" content="CAD Standards Add-in for SolidWorks - ComplianceWorks">
+<meta property="og:description" content="The CAD standards add-in for CAD administrators: define your standards once, enforce them across every SolidWorks seat, update everyone automatically.">
+<meta property="og:url" content="https://asilerguner.com/complianceworks.html">
+<meta property="og:image" content="https://asilerguner.com/assets/apps/ComplianceWorks-TaskPane.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="CAD Standards Add-in for SolidWorks - ComplianceWorks">
+<meta name="twitter:description" content="Built for CAD administrators: enforce company CAD standards across every SolidWorks seat from one control panel.">
+<meta name="twitter:image" content="https://asilerguner.com/assets/apps/ComplianceWorks-TaskPane.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "ComplianceWorks",
+      "alternateName": "ComplianceWorks CAD Standards Add-in for SolidWorks",
+      "description": "A CAD standards add-in for SolidWorks, built for CAD administrators. Define design guidelines, settings, templates and macros once, enforce them for every engineer, and publish updates to the whole team from one control panel.",
+      "applicationCategory": "DesignApplication",
+      "applicationSubCategory": "CAD standards management",
+      "operatingSystem": "Windows",
+      "softwareVersion": "1.0",
+      "url": "https://asilerguner.com/complianceworks.html",
+      "image": "https://asilerguner.com/assets/apps/ComplianceWorks-TaskPane.png",
+      "audience": { "@type": "Audience", "audienceType": "CAD administrators, CAD managers and engineering teams using SolidWorks" },
+      "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD", "description": "Free for evaluation, with a proof-of-concept license included" },
+      "author": { "@type": "Person", "name": "Asil Ergüner", "url": "https://asilerguner.com/" }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a CAD standards add-in?",
+          "acceptedAnswer": { "@type": "Answer", "text": "A CAD standards add-in runs inside your CAD software and helps every engineer follow the company's CAD standards - design guidelines, required settings, templates and naming rules - instead of relying on documents nobody reads. ComplianceWorks is a CAD standards add-in for SolidWorks." }
+        },
+        {
+          "@type": "Question",
+          "name": "How does a CAD administrator enforce CAD standards across a SolidWorks team?",
+          "acceptedAnswer": { "@type": "Answer", "text": "With ComplianceWorks, the CAD administrator defines the rules once in a password-protected control panel and keeps them in a single database file in a shared folder. Every user imports that file once, and each update the administrator publishes reaches the whole team the next time SolidWorks starts." }
+        },
+        {
+          "@type": "Question",
+          "name": "Does ComplianceWorks need a license server or an internet connection?",
+          "acceptedAnswer": { "@type": "Answer", "text": "No. The license is stored in the same database file on your own server and is checked on your own computer. ComplianceWorks makes no internet connections and collects no data." }
+        },
+        {
+          "@type": "Question",
+          "name": "Where do the database and license file need to be stored?",
+          "acceptedAnswer": { "@type": "Answer", "text": "In a common network shared folder that everyone using ComplianceWorks has write access to. The database and the license file live there, and seat usage is tracked in a ComplianceWorks_Seats folder next to the database." }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I try ComplianceWorks before rolling it out?",
+          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Download the installer, user guide and sample database from this page. The sample database includes a working proof-of-concept license, so you can evaluate it alone or with your team straight away." }
+        }
+      ]
+    }
+  ]
+}
+</script>
 <link rel="icon" href="assets/brand/favicon.ico" sizes="32x32">
 <link rel="icon" type="image/svg+xml" href="assets/brand/favicon.svg">
 <link rel="apple-touch-icon" href="assets/brand/favicon-180.png">
@@ -12,21 +76,8 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
-<style>
-body.locked .nav-toggle { display: none; }
-.cw-lock { min-height: 72vh; display: grid; place-items: center; padding: 48px 0; }
-.cw-lock-card { background: #fff; border-radius: var(--radius); box-shadow: 0 24px 60px rgba(0,0,0,0.3); padding: 40px 34px; width: min(420px, 100%); text-align: center; }
-.cw-lock-ico { width: 56px; height: 56px; margin: 0 auto 18px; border-radius: 16px; display: grid; place-items: center; background: linear-gradient(135deg, rgba(0,160,200,0.14), rgba(0,40,80,0.10)); color: var(--cyan); }
-.cw-lock-ico svg { width: 28px; height: 28px; fill: none; stroke: currentColor; stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; }
-.cw-lock-card h1 { font-size: 1.5rem; margin-bottom: 6px; }
-.cw-lock-card p { color: var(--muted); font-size: 0.95rem; margin-bottom: 20px; }
-.cw-lock-card input { width: 100%; font: inherit; padding: 13px 16px; border: 1px solid var(--divider); border-radius: 999px; text-align: center; margin-bottom: 12px; }
-.cw-lock-card input:focus { outline: 2px solid var(--cyan); border-color: transparent; }
-.cw-lock-card button { width: 100%; border: 0; cursor: pointer; }
-.cw-lock-err { color: #c0392b; font-size: 0.88rem; min-height: 1.3em; margin: 10px 0 0; }
-</style>
 </head>
-<body class="locked">
+<body>
 
 <header class="site-header">
   <div class="wrap header-inner">
@@ -44,18 +95,345 @@ body.locked .nav-toggle { display: none; }
 </header>
 
 <main id="top">
-  <section class="hero" id="cwLock">
-    <div class="wrap cw-lock">
-      <form class="cw-lock-card" id="cwForm" autocomplete="off">
-        <div class="cw-lock-ico"><svg viewBox="0 0 24 24"><rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg></div>
-        <h1>ComplianceWorks</h1>
-        <p>This page is password protected. Enter the password to continue.</p>
-        <input type="password" id="cwPass" placeholder="Password" aria-label="Password" required autofocus>
-        <button class="btn btn-primary" type="submit">Unlock</button>
-        <p class="cw-lock-err" id="cwErr" role="alert"></p>
-      </form>
+
+  <!-- HERO -->
+  <section class="hero cw-hero">
+    <div class="wrap hero-inner">
+      <div class="cw-badge">
+        <span>Built for</span>
+        <img src="assets/logos/solidworks.svg" alt="SolidWorks" class="cw-badge-logo">
+      </div>
+      <div class="cw-logo-wide-card"><img class="cw-logo-wide" src="assets/icons/ComplianceWorksLogoTextCropped.png" alt="ComplianceWorks - Your Company, Your CAD Standards"></div>
+      <h1 class="cw-h1">The CAD Standards Add-in for SolidWorks</h1>
+      <p class="cw-tagline">Built for CAD administrators: define your company's CAD standards once, and ComplianceWorks keeps every engineer on them - automatically.</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href="#download">Download</a>
+        <a class="btn btn-outline" href="#licensing">Questions &amp; Feedback</a>
+      </div>
+      <div class="cw-stats">
+        <div class="cw-stat"><strong>15</strong><span>Built-in Utilities</span></div>
+        <div class="cw-stat"><strong>1</strong><span>Admin, Zero Chaos</span></div>
+        <div class="cw-stat"><strong>0</strong><span>Reinstalls Needed</span></div>
+      </div>
     </div>
   </section>
+
+  <!-- BIG STATEMENT -->
+  <section class="cw-statement">
+    <div class="wrap">
+      <p class="cw-statement-text">ONE COMMON SOLIDWORKS FOR ALL.</p>
+    </div>
+  </section>
+
+  <!-- FOR CAD ADMINISTRATORS -->
+  <section id="cad-administrators" class="section section-alt">
+    <div class="wrap">
+      <h2>Built for CAD Administrators</h2>
+      <p class="section-intro">If you own the CAD standards for a SolidWorks team, this CAD standards add-in is the
+        tool you have been missing: one place to define the rules, and one place to know they are being followed.</p>
+      <div class="about-grid cw-feature-grid cw-admin-grid">
+        <div class="about-card reveal">
+          <h3>Define Once</h3>
+          <p>Write your design guidelines, required SolidWorks settings, templates, macros and resources in one
+            password-protected control panel - no scripts, no scattered documents.</p>
+        </div>
+        <div class="about-card reveal">
+          <h3>Roll Out Without Chasing</h3>
+          <p>Every user imports one database file from a shared folder. After that, each change you publish reaches
+            the whole team by their next SolidWorks session - no reinstalls, no mass emails.</p>
+        </div>
+        <div class="about-card reveal">
+          <h3>Check Compliance As Work Happens</h3>
+          <p>Engineers tick off guidelines inside SolidWorks and run Quick Check scans, so deviations are caught
+            before review or release instead of after.</p>
+        </div>
+        <div class="about-card reveal">
+          <h3>Onboard New Hires Faster</h3>
+          <p>Day one, a new engineer has the full CAD standards inside the tool they already work in. Standards stop
+            living in one senior engineer's head.</p>
+        </div>
+        <div class="about-card reveal">
+          <h3>Approve Before Release</h3>
+          <p>Check files against your exact CAD standards and mark them approved, so drawings and models shared with
+            suppliers, partners and customers always meet the same standard.</p>
+        </div>
+        <div class="about-card reveal">
+          <h3>Stay In Control</h3>
+          <p>Everything lives in one file on your own server. No license server, no cloud, no internet connection and
+            no data collection.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- OVERVIEW / PROBLEM-SOLUTION -->
+  <section id="overview" class="section">
+    <div class="wrap">
+      <h2>The Problem: CAD Standards Nobody Follows</h2>
+      <p class="about-text">
+        Every engineering team has standards. But keeping those standards consistent across the team is a
+        nightmare. A new hire joins - someone has to sit down and walk them through every rule. A senior engineer
+        leaves - that knowledge walks out the door with them. Standards update - you're emailing the whole team
+        hoping everyone reads it. Someone works from home - their SolidWorks settings are different, their
+        templates are different, nobody knows. The result: double work, rework, failed audits, and wasted hours
+        reviewing drawings that should have been right the first time.
+      </p>
+
+      <h2 class="sub-heading">The Solution: A CAD Standards Add-in Inside SolidWorks</h2>
+      <div class="solution-layout">
+        <div class="solution-text">
+          <p class="about-text">
+            ComplianceWorks lives inside SolidWorks as a task pane - always there, right next to the model, with no
+            separate application to open or switch to. An admin defines the rules once - design guidelines, required
+            settings, templates, macros, and resources - and keeps them, license included, in a single database file
+            in a shared folder on the company server.
+          </p>
+          <p class="about-text">
+            Every user imports that file exactly once, from Tools &gt; ComplianceWorks &gt; Import Database. From
+            that point on, every update the admin makes reaches the whole team the next time SolidWorks starts - no
+            reinstallation, no mass emails, no chasing people down to check they're on the latest version.
+          </p>
+          <ul class="solution-points">
+            <li>New hires get the full rulebook on day one, inside the tool they already work in.</li>
+            <li>A process changes once - a setting, a template, a macro - and it's live for everyone by their next session.</li>
+            <li>Compliance gets checked as work happens, not caught later in review.</li>
+          </ul>
+        </div>
+        <div class="taskpane-shot reveal">
+          <img src="assets/apps/ComplianceWorks-TaskPane.png" alt="ComplianceWorks task pane inside SolidWorks">
+          <p class="taskpane-caption">The task pane, live inside SolidWorks</p>
+        </div>
+      </div>
+
+      <h2 class="sub-heading">Screenshots</h2>
+      <p class="section-intro">ComplianceWorks, live inside SolidWorks.</p>
+      <div class="screenshot-grid">
+        <figure class="screenshot-card reveal">
+          <img src="assets/apps/ComplianceWorks-DesignGuidelines.png" alt="ComplianceWorks Design Guidelines panel inside SolidWorks">
+          <figcaption>Design Guidelines checklist, next to the model</figcaption>
+        </figure>
+        <figure class="screenshot-card reveal">
+          <img src="assets/apps/ComplianceWorks-QuickCheck.png" alt="ComplianceWorks Quick Check compliance scan results">
+          <figcaption>Quick Check compliance scan results</figcaption>
+        </figure>
+      </div>
+      <div class="screenshot-grid">
+        <figure class="screenshot-card reveal">
+          <img src="assets/apps/ComplianceWorks-ControlPanel.png" alt="ComplianceWorks Control Panel with the design guidelines, license status and database file">
+          <figcaption>The Control Panel - the admin manages guidelines, macros, news, settings and the license in one place</figcaption>
+        </figure>
+      </div>
+
+      <h2 class="sub-heading">What It Does</h2>
+      <div class="about-grid cw-feature-grid">
+        <div class="about-card feature-card reveal">
+          <div class="feature-icon-tile">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"></path><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"></path></svg>
+          </div>
+          <h3>Design Guidelines</h3>
+          <p>Your company's rules, right inside SolidWorks, in checklist format. Engineers tick them off as they
+            work, saved directly to the document.</p>
+        </div>
+        <div class="about-card feature-card reveal">
+          <div class="feature-icon-tile">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10Z"></path><path d="M9 12l2 2 4-4"></path></svg>
+          </div>
+          <h3>Standards-Based Approval</h3>
+          <p>Every company defines its own CAD standards - ComplianceWorks checks files against those exact
+            rules and marks them approved before release, so drawings and models shared with suppliers,
+            partners, and customers always meet the same standard.</p>
+        </div>
+        <div class="about-card feature-card reveal">
+          <div class="feature-icon-tile"><img src="assets/icons/QuickCheck_Icon_32x32.png" alt=""></div>
+          <h3>Utilities</h3>
+          <p>A productivity suite built for daily use - Quick Check compliance scans, Feature Tree Organizer,
+            Generate Quick PDF, QR Code Generator, and more. Fifteen tools, one click each.</p>
+        </div>
+        <div class="about-card feature-card reveal">
+          <div class="feature-icon-tile"><img src="assets/icons/Macros-Icon-32x32.png" alt=""></div>
+          <h3>Custom Macros</h3>
+          <p>Your existing SolidWorks macros, one click away in the task pane. The admin picks the macro and its
+            method, just like a SolidWorks macro button - no hunting through folders.</p>
+        </div>
+        <div class="about-card feature-card reveal">
+          <div class="feature-icon-tile"><img src="assets/icons/Resources-Icon-32x32.png" alt=""></div>
+          <h3>Resources</h3>
+          <p>Links to your specs, standards, supplier portals, and network drives - always up to date because the
+            admin controls them.</p>
+        </div>
+        <div class="about-card feature-card reveal">
+          <div class="feature-icon-tile"><img src="assets/icons/News-Icon-32x32.png" alt=""></div>
+          <h3>News &amp; Notifications</h3>
+          <p>Push announcements straight into the task pane. Publish a mandatory message and it's the first thing
+            everyone sees the next time they open SolidWorks.</p>
+        </div>
+        <div class="about-card feature-card reveal">
+          <div class="feature-icon-tile">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"></circle><path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 1 1-2.83 2.83l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-4 0v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 1 1-2.83-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1 0-4h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 1 1 2.83-2.83l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 4 0v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 1 1 2.83 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 0 4h-.09a1.65 1.65 0 0 0-1.51 1z"></path></svg>
+          </div>
+          <h3>Centralized Admin</h3>
+          <p>One password-protected control panel manages rules, settings, and the license for the whole team -
+            all kept in a single database file on your own server. No license server, no internet connection.</p>
+        </div>
+        <div class="about-card feature-card reveal">
+          <div class="feature-icon-tile">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"></polyline><polyline points="1 20 1 14 7 14"></polyline><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path></svg>
+          </div>
+          <h3>Automatic Sync &amp; Updates</h3>
+          <p>When the admin publishes a change, it reaches the whole team by their next SolidWorks session -
+            no manual redistribution, no version drift, nobody left behind on an old configuration.</p>
+        </div>
+      </div>
+
+      <h2 class="sub-heading">15 Built-in Utilities</h2>
+      <p class="section-intro">A full productivity toolkit, one click away in the task pane.</p>
+      <div class="utility-grid">
+        <div class="utility-item"><img src="assets/icons/QuickCheck_Icon_32x32.png" alt=""><span>Quick Check</span></div>
+        <div class="utility-item"><img src="assets/icons/Reset-Icon-32x32.png" alt=""><span>Apply SW Settings</span></div>
+        <div class="utility-item"><img src="assets/icons/Template-Icon-32x32.png" alt=""><span>Refresh Document Template</span></div>
+        <div class="utility-item"><img src="assets/icons/FeatureTreeOrganizer-Icon-32x32.png" alt=""><span>Feature Tree Organizer</span></div>
+        <div class="utility-item"><img src="assets/icons/DeleteDanglingDimensions-Icon-32x32.png" alt=""><span>Delete Dangling Dims</span></div>
+        <div class="utility-item"><img src="assets/icons/MissingReferences-Icon-32x32.png" alt=""><span>Missing Refs Finder</span></div>
+        <div class="utility-item"><img src="assets/icons/SelectSuppressedComponents-Icon-32x32.png" alt=""><span>Select Suppressed Components</span></div>
+        <div class="utility-item"><img src="assets/icons/IsoRebuildSaveClose-Icon-32x32.png" alt=""><span>Iso Rebuild Save Close</span></div>
+        <div class="utility-item"><img src="assets/icons/ClearCustomProperties-Icon-32x32.png" alt=""><span>Clear Custom Properties</span></div>
+        <div class="utility-item"><img src="assets/icons/OpenLinkedDrawing-Icon-32x32.png" alt=""><span>Open Linked Drawing</span></div>
+        <div class="utility-item"><img src="assets/icons/GenerateQuickPDF-Icon-32x32.png" alt=""><span>Generate Quick PDF</span></div>
+        <div class="utility-item"><img src="assets/icons/GetTotalFaceArea-Icon-32x32.png" alt=""><span>Get Total Face Area</span></div>
+        <div class="utility-item"><img src="assets/icons/CopySelectedObjectsPaths-Icon-32x32.png" alt=""><span>Copy Selected Paths</span></div>
+        <div class="utility-item"><img src="assets/icons/ConfigurationSplitter-Icon-32x32.png" alt=""><span>Configuration Splitter</span></div>
+        <div class="utility-item"><img src="assets/icons/QRCodeGenerator_32x32.png" alt=""><span>QR Code Generator</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DOWNLOAD -->
+  <section id="download" class="section section-alt">
+    <div class="wrap">
+      <h2>Download</h2>
+      <p class="section-intro">Version 1.0 · Requires SolidWorks and Windows</p>
+
+      <div class="download-grid">
+        <div class="download-card reveal">
+          <div class="download-icon">⬇</div>
+          <div class="download-body">
+            <h3>ComplianceWorks Installer</h3>
+            <p>MSI installer - installs and registers the add-in for SolidWorks.</p>
+            <a class="btn btn-primary" href="downloads/ComplianceWorks-Installer-v1.0.msi" download>Download Installer (.msi)</a>
+          </div>
+        </div>
+
+        <div class="download-card reveal">
+          <div class="download-icon">📖</div>
+          <div class="download-body">
+            <h3>User Guide</h3>
+            <p>Full walkthrough of installation, the control panel, and every utility.</p>
+            <a class="btn btn-outline btn-dark" href="downloads/ComplianceWorks_User_Guide.pdf" target="_blank" rel="noopener">Download User Guide (PDF)</a>
+          </div>
+        </div>
+
+        <div class="download-card reveal">
+          <div class="download-icon">🗂️</div>
+          <div class="download-body">
+            <h3>Sample Database</h3>
+            <p>A ready-to-import database with 29 sample design guidelines, news, resources, and an example
+              macro - with a working proof-of-concept license built in.</p>
+            <a class="btn btn-outline btn-dark" href="downloads/ComplianceWorks-Database.json" download>Download Database (JSON)</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="trial-license reveal">
+        <h3>Proof-of-Concept License - Ready to Use</h3>
+        <p>The proof-of-concept license is stored inside the sample database, so there is nothing to enter. Put the
+          file in a shared folder your team can reach (or anywhere on your own computer to try it alone), then select
+          it once via <strong>Tools &gt; ComplianceWorks &gt; Import Database</strong> - the license validates and
+          activates automatically:</p>
+        <div class="trial-license-keys">
+          <div class="trial-license-field">
+            <span>Licensed To</span>
+            <code>SolidWorks Champions</code>
+          </div>
+          <div class="trial-license-field">
+            <span>Seats</span>
+            <code>5</code>
+          </div>
+          <div class="trial-license-field">
+            <span>Valid Until</span>
+            <code>2026-12-31</code>
+          </div>
+        </div>
+        <p class="trial-license-note">Starting your own database instead? Download the license file and add it in the
+          Control Panel with <strong>Add License... &gt; Load from File...</strong>, then click <strong>Save Changes</strong>.</p>
+        <div class="contact-actions trial-license-download">
+          <a class="btn btn-outline btn-dark" href="downloads/SolidWorks_Champions_5seats_2026-12-31.cwlic" download>Download License File (.cwlic)</a>
+        </div>
+        <p class="trial-license-note"><strong>Shared folder requirement:</strong> for a team, the database and the
+          license file must be in a common network shared folder that every user has write access to. Seat usage is
+          tracked in a ComplianceWorks_Seats folder next to the database, so users need to be able to write there.</p>
+        <p class="trial-license-note">Admins can see the license and the seats in use - and add a new license key -
+          in the password-protected <strong>Tools &gt; ComplianceWorks &gt; Control Panel</strong>.</p>
+        <p class="trial-license-note">No data is collected, and ComplianceWorks makes no internet connections. The
+          license is checked on your own computer, and seats are counted in a ComplianceWorks_Seats folder next to
+          the database.</p>
+      </div>
+
+      <p class="eula-note">ComplianceWorks isn't for sale - it's not a commercial product. Provided free for
+        evaluation. The proof-of-concept license above works right away - get in touch if you'd like a license
+        key of your own for a longer evaluation with your team, locked to your company's shared database folder.</p>    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq" class="section">
+    <div class="wrap">
+      <h2>CAD Standards Add-in FAQ</h2>
+      <div class="cw-faq">
+        <details class="reveal">
+          <summary>What is a CAD standards add-in?</summary>
+          <p>A CAD standards add-in runs inside your CAD software and helps every engineer follow the company's CAD
+            standards - design guidelines, required settings, templates and naming rules - instead of relying on
+            documents nobody reads. ComplianceWorks is a CAD standards add-in for SolidWorks.</p>
+        </details>
+        <details class="reveal">
+          <summary>How does a CAD administrator enforce CAD standards across a SolidWorks team?</summary>
+          <p>The administrator defines the rules once in a password-protected control panel and keeps them in a
+            single database file in a shared folder. Every user imports that file once, and each update the
+            administrator publishes reaches the whole team the next time SolidWorks starts.</p>
+        </details>
+        <details class="reveal">
+          <summary>Does ComplianceWorks need a license server or an internet connection?</summary>
+          <p>No. The license is stored in the same database file on your own server and is checked on your own
+            computer. ComplianceWorks makes no internet connections and collects no data.</p>
+        </details>
+        <details class="reveal">
+          <summary>Where do the database and license file need to be stored?</summary>
+          <p>In a common network shared folder that everyone using ComplianceWorks has write access to. The
+            database and the license file live there, and seat usage is tracked in a ComplianceWorks_Seats folder
+            next to the database.</p>
+        </details>
+        <details class="reveal">
+          <summary>Can I try ComplianceWorks before rolling it out?</summary>
+          <p>Yes. Download the installer, user guide and sample database from the <a href="#download">download
+            section</a>. The sample database includes a working proof-of-concept license, so you can evaluate it
+            alone or with your team straight away.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- LICENSING -->
+  <section id="licensing" class="section contact-section">
+    <div class="wrap">
+      <h2>Questions &amp; Feedback</h2>
+      <p class="section-intro">ComplianceWorks is a personal project, built and shared without any commercial
+        intent - I'm not looking to profit from it. Get in touch with any questions, or to share your thoughts
+        after trying the proof of concept - feedback is always welcome.</p>
+      <div class="contact-actions">
+        <a class="btn btn-primary" href="index.html?topic=licensing#contact">Ask a Question or Share Feedback</a>
+      </div>
+    </div>
+  </section>
+
 </main>
 
 <footer class="site-footer">
@@ -68,44 +446,6 @@ body.locked .nav-toggle { display: none; }
   <img id="lightbox-img" src="" alt="">
 </div>
 
-<script>
-(function () {
-  var BLOB = "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", ITER = 250000;
-  var form = document.getElementById('cwForm'), pass = document.getElementById('cwPass'), err = document.getElementById('cwErr');
-  var main = document.getElementById('top');
-  function b64(s) { return Uint8Array.from(atob(s), function (c) { return c.charCodeAt(0); }); }
-  function raw(k) { return crypto.subtle.exportKey('raw', k).then(function (r) { return btoa(String.fromCharCode.apply(null, new Uint8Array(r))); }); }
-  var data = b64(BLOB), salt = data.slice(0, 16), iv = data.slice(16, 28), ct = data.slice(28);
-
-  function decrypt(key) {
-    return crypto.subtle.decrypt({ name: 'AES-GCM', iv: iv }, key, ct).then(function (buf) {
-      main.innerHTML = new TextDecoder().decode(buf);
-      document.body.classList.remove('locked');
-      var s = document.createElement('script'); s.src = 'script.js'; document.body.appendChild(s);
-      if (location.hash) { var t = document.querySelector(location.hash); if (t) t.scrollIntoView(); }
-    });
-  }
-  function fromPassword(pw) {
-    return crypto.subtle.importKey('raw', new TextEncoder().encode(pw), 'PBKDF2', false, ['deriveKey']).then(function (base) {
-      return crypto.subtle.deriveKey({ name: 'PBKDF2', salt: salt, iterations: ITER, hash: 'SHA-256' }, base, { name: 'AES-GCM', length: 256 }, true, ['decrypt']);
-    });
-  }
-  function fromStored(k) { return crypto.subtle.importKey('raw', b64(k), 'AES-GCM', false, ['decrypt']); }
-
-  document.getElementById('year').textContent = new Date().getFullYear();
-  if (!window.crypto || !crypto.subtle) { err.textContent = 'This page needs a modern browser over HTTPS.'; return; }
-
-  var stored = null; try { stored = sessionStorage.getItem('cw_key'); } catch (e) {}
-  if (stored) { fromStored(stored).then(decrypt).catch(function () { try { sessionStorage.removeItem('cw_key'); } catch (e) {} }); }
-
-  form.addEventListener('submit', function (e) {
-    e.preventDefault(); err.textContent = '';
-    var btn = form.querySelector('button'); btn.disabled = true;
-    fromPassword(pass.value).then(function (key) {
-      return decrypt(key).then(function () { return raw(key); }).then(function (k) { try { sessionStorage.setItem('cw_key', k); } catch (e) {} });
-    }).catch(function () { err.textContent = 'Incorrect password.'; pass.select(); }).then(function () { btn.disabled = false; });
-  });
-})();
-</script>
+<script src="script.js"></script>
 </body>
 </html>
