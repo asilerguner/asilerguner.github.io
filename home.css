@@ -159,3 +159,9 @@ footer a{text-decoration:none}footer a:hover{color:var(--ink);text-decoration:un
 .xp h3{font-size:1.1rem;margin-bottom:6px}
 .xp p{color:var(--muted);font-size:.98rem;max-width:44em}
 @media (max-width:700px){.xp li{grid-template-columns:1fr;gap:8px}}
+
+.edu{list-style:none;margin:0;padding:0;display:grid;gap:16px}
+.edu li{display:grid;grid-template-columns:96px 1fr;gap:16px;align-items:center}
+.edu img{display:block;max-width:96px;max-height:48px;width:auto;height:auto;object-fit:contain}
+.edu span{font-weight:500}
+.edu small{display:block;font-weight:400;color:var(--muted);font-size:.88rem}
