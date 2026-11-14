@@ -46,7 +46,7 @@ img{max-width:100%}
 /* hero */
 .hero{padding:72px 0 0}
 .hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:64px;align-items:center}
-.hero h1{font-size:clamp(2.4rem,5vw,4rem);line-height:1.1;margin-bottom:22px;max-width:17em}
+.hero h1{font-size:clamp(2.6rem,5.4vw,4.4rem);line-height:1.1;margin-bottom:22px;max-width:17em}
 .lead{font-size:1.18rem;color:var(--muted);max-width:34em}
 .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
 .portrait{display:block;width:100%;height:auto;max-width:400px;margin-left:auto;aspect-ratio:4/5;object-fit:cover;object-position:68% 50%;border-radius:14px;border:1px solid var(--line)}
@@ -73,7 +73,7 @@ img{max-width:100%}
 .case p{font-size:1rem}
 .case a{color:var(--navy);font-weight:600}
 
-.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,1fr);gap:32px;counter-reset:s}
+.steps{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(5,1fr);gap:24px;counter-reset:s}
 .steps li{counter-increment:s;border-top:2px solid var(--line);padding-top:16px}
 .steps li::before{content:counter(s);display:block;font-weight:700;color:var(--cyan);margin-bottom:6px}
 .steps h3{font-size:1.05rem;margin-bottom:8px}
@@ -141,3 +141,7 @@ footer a{text-decoration:none}footer a:hover{color:var(--ink);text-decoration:un
   [data-reveal]{opacity:1;transform:none;transition:none}
   @view-transition{navigation:none}
 }
+
+.tagline{font-weight:600;font-size:.95rem;color:var(--cyan);margin-bottom:18px}
+.hero{padding-bottom:8px}
+.lead2{margin-top:14px;color:var(--ink)}
