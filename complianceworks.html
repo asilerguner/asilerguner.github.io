@@ -183,12 +183,17 @@
   <div class="wrap">
     <div class="head" data-reveal>
       <h2>In SolidWorks</h2>
-      <p>Open an image to see it at full size.</p>
+      <p>Select a view. Open an image to see it at full size.</p>
     </div>
-    <div class="shots">
-      <figure data-reveal><a href="assets/apps/ComplianceWorks-DesignGuidelines.png" target="_blank" rel="noopener"><img src="assets/apps/ComplianceWorks-DesignGuidelines.png" alt="ComplianceWorks Design Guidelines panel inside SolidWorks" width="1920" height="1039" loading="lazy"></a><figcaption>Design guidelines checklist, next to the model</figcaption></figure>
-      <figure data-reveal><a href="assets/apps/ComplianceWorks-QuickCheck.png" target="_blank" rel="noopener"><img src="assets/apps/ComplianceWorks-QuickCheck.png" alt="ComplianceWorks Quick Check compliance scan results" width="1920" height="1042" loading="lazy"></a><figcaption>Quick Check compliance scan results</figcaption></figure>
-      <figure class="wide" data-reveal><a href="assets/apps/ComplianceWorks-ControlPanel.png" target="_blank" rel="noopener"><img src="assets/apps/ComplianceWorks-ControlPanel.png" alt="ComplianceWorks Control Panel with design guidelines, licence status and database file" width="1180" height="820" loading="lazy"></a><figcaption>The Control Panel: guidelines, macros, news, settings and the licence in one place</figcaption></figure>
+    <div class="viewer" data-reveal>
+      <div class="tabs" role="tablist" aria-label="Screenshots">
+        <button role="tab" aria-selected="true" aria-controls="shot-0" id="tab-0">Design guidelines</button>
+        <button role="tab" aria-selected="false" aria-controls="shot-1" id="tab-1" tabindex="-1">Quick Check</button>
+        <button role="tab" aria-selected="false" aria-controls="shot-2" id="tab-2" tabindex="-1">Control Panel</button>
+      </div>
+      <figure role="tabpanel" id="shot-0" aria-labelledby="tab-0"><a href="assets/apps/ComplianceWorks-DesignGuidelines.png" target="_blank" rel="noopener"><img src="assets/apps/ComplianceWorks-DesignGuidelines.png" alt="ComplianceWorks Design Guidelines panel inside SolidWorks" width="1920" height="1039"></a><figcaption>The design guidelines checklist sits next to the model, so engineers tick off rules as they work.</figcaption></figure>
+      <figure role="tabpanel" id="shot-1" aria-labelledby="tab-1" hidden><a href="assets/apps/ComplianceWorks-QuickCheck.png" target="_blank" rel="noopener"><img src="assets/apps/ComplianceWorks-QuickCheck.png" alt="ComplianceWorks Quick Check compliance scan results" width="1920" height="1042" loading="lazy"></a><figcaption>Quick Check scans the open document and lists every deviation from your standards.</figcaption></figure>
+      <figure role="tabpanel" id="shot-2" aria-labelledby="tab-2" hidden><a href="assets/apps/ComplianceWorks-ControlPanel.png" target="_blank" rel="noopener"><img src="assets/apps/ComplianceWorks-ControlPanel.png" alt="ComplianceWorks Control Panel with design guidelines, licence status and database file" width="1180" height="820" loading="lazy"></a><figcaption>The Control Panel is where the administrator manages guidelines, macros, news, settings and the licence.</figcaption></figure>
     </div>
   </div>
 </section>
@@ -206,20 +211,24 @@
     </div>
 
     <div class="lic" data-reveal>
-      <h3>Proof-of-concept licence</h3>
-      <p>The licence is stored inside the sample database, so there is nothing to enter. Put the file in a shared folder your team can reach, or anywhere on your own computer to try it alone, then select it once via <strong>Tools &gt; ComplianceWorks &gt; Import Database</strong>. The licence validates and activates automatically.</p>
-      <dl>
-        <div><dt>Licensed to</dt><dd>SolidWorks Champions</dd></div>
-        <div><dt>Seats</dt><dd>5</dd></div>
-        <div><dt>Valid until</dt><dd>2026-12-31</dd></div>
-      </dl>
-      <p>Starting your own database instead? Download the licence file and add it in the Control Panel with <strong>Add License... &gt; Load from File...</strong>, then click <strong>Save Changes</strong>.</p>
-      <p><a class="btn btn-line btn-sm" href="downloads/SolidWorks_Champions_5seats_2026-12-31.cwlic" download>Download licence file (.cwlic)</a></p>
-      <ul class="notes">
-        <li><strong>Shared folder:</strong> for a team, the database and the licence file must be in a network folder every user can write to. Seat usage is tracked in a ComplianceWorks_Seats folder next to the database.</li>
-        <li>Administrators can see the licence and the seats in use, and add a new licence key, in the password-protected <strong>Tools &gt; ComplianceWorks &gt; Control Panel</strong>.</li>
-        <li>No data is collected and no internet connection is made. The licence is checked on your own computer.</li>
-      </ul>
+      <div class="lic-main">
+        <h3>Proof-of-concept licence</h3>
+        <p>The licence is stored inside the sample database, so there is nothing to enter. Put the file in a shared folder your team can reach, or anywhere on your own computer to try it alone, then select it once via <strong>Tools &gt; ComplianceWorks &gt; Import Database</strong>. The licence validates and activates automatically.</p>
+        <p>Starting your own database instead? Download the licence file and add it in the Control Panel with <strong>Add License... &gt; Load from File...</strong>, then click <strong>Save Changes</strong>.</p>
+      </div>
+      <aside class="lic-card" aria-label="Licence details">
+        <dl>
+          <div><dt>Licensed to</dt><dd>SolidWorks Champions</dd></div>
+          <div><dt>Seats</dt><dd>5</dd></div>
+          <div><dt>Valid until</dt><dd>2026-12-31</dd></div>
+        </dl>
+        <a class="btn btn-line btn-sm" href="downloads/SolidWorks_Champions_5seats_2026-12-31.cwlic" download>Download licence file (.cwlic)</a>
+      </aside>
+    </div>
+    <div class="notes3">
+      <div data-reveal><h3>Shared folder</h3><p>For a team, the database and the licence file must be in a network folder every user can write to. Seat usage is tracked in a ComplianceWorks_Seats folder next to the database.</p></div>
+      <div data-reveal><h3>Administration</h3><p>Administrators see the licence and the seats in use, and can add a new licence key, in the password-protected <strong>Tools &gt; ComplianceWorks &gt; Control Panel</strong>.</p></div>
+      <div data-reveal><h3>Privacy</h3><p>No data is collected and no internet connection is made. The licence is checked on your own computer.</p></div>
     </div>
 
     <p class="eula" data-reveal>ComplianceWorks is not for sale and is not a commercial product. It is provided free for evaluation. Get in touch if you would like a licence key of your own for a longer evaluation with your team, locked to your company's shared database folder.</p>
@@ -285,5 +294,10 @@
 </footer>
 
 <script src="home.js"></script>
+<script>
+(()=>{const tabs=[...document.querySelectorAll('.tabs [role=tab]')];
+const show=i=>tabs.forEach((t,j)=>{const on=i===j;t.setAttribute('aria-selected',on);t.tabIndex=on?0:-1;document.getElementById('shot-'+j).hidden=!on;});
+tabs.forEach((t,i)=>{t.addEventListener('click',()=>show(i));t.addEventListener('keydown',e=>{const k={ArrowRight:1,ArrowLeft:-1}[e.key];if(!k)return;const n=(i+k+tabs.length)%tabs.length;show(n);tabs[n].focus();});});})();
+</script>
 </body>
 </html>

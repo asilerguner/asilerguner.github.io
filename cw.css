@@ -15,40 +15,52 @@
 .utils{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(3,1fr);gap:8px 24px}
 .utils li{display:flex;align-items:center;gap:12px;padding:10px 0;border-bottom:1px solid var(--line);font-size:.97rem}
 .utils img{flex:none}
-.shots{display:grid;grid-template-columns:1fr 1fr;gap:24px}
-.shots figure{margin:0}
-.shots .wide{grid-column:1/-1;max-width:640px}
-.shots img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:10px}
-.shots figcaption{margin-top:10px;font-size:.92rem;color:var(--muted)}
+.tabs{display:flex;gap:4px;border-bottom:1px solid var(--line);margin-bottom:24px;overflow-x:auto}
+.tabs button{font:600 .97rem/1 var(--font);color:var(--muted);background:none;border:0;border-bottom:2px solid transparent;padding:12px 16px;margin-bottom:-1px;cursor:pointer;white-space:nowrap}
+.tabs button:hover{color:var(--ink)}
+.tabs button[aria-selected="true"]{color:var(--navy);border-bottom-color:var(--navy)}
+.viewer figure{margin:0}
+.viewer img{display:block;width:100%;height:auto;border:1px solid var(--line);border-radius:10px}
+.viewer figcaption{margin-top:14px;color:var(--muted);font-size:.97rem}
+.viewer figure[hidden]{display:none}
 .dl{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
 .dl>div{border:1px solid var(--line);border-radius:12px;padding:24px;display:flex;flex-direction:column;align-items:flex-start;gap:12px}
 .dl h3{font-size:1.05rem}
 .dl p{color:var(--muted);font-size:.97rem;flex:1}
-.lic{margin-top:32px;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:28px 32px;max-width:820px}
-.lic h3{font-size:1.1rem;margin-bottom:10px}
-.lic p{color:var(--muted);margin-bottom:14px}
-.lic dl{display:flex;flex-wrap:wrap;gap:12px 40px;margin:18px 0}
-.lic dt{font-size:.88rem;color:var(--muted)}
-.lic dd{margin:2px 0 0;font-weight:600}
-.notes{margin:8px 0 0;padding-left:18px;color:var(--muted);font-size:.95rem}
-.notes li+li{margin-top:8px}
-.eula{margin-top:28px;max-width:46em;color:var(--muted);font-size:.97rem}
-.faq details{border-top:1px solid var(--line);max-width:46em}
+.lic{margin-top:32px;display:grid;grid-template-columns:1.5fr 1fr;gap:48px;align-items:start;background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:32px}
+.lic h3{font-size:1.1rem;margin-bottom:12px}
+.lic-main p{color:var(--muted)}
+.lic-main p+p{margin-top:12px}
+.lic-card{background:#fff;border:1px solid var(--line);border-radius:10px;padding:8px 24px 24px}
+.lic-card dl{margin:0 0 20px}
+.lic-card dl>div{padding:14px 0;border-bottom:1px solid var(--line)}
+.lic-card dt{font-size:.88rem;color:var(--muted)}
+.lic-card dd{margin:2px 0 0;font-weight:600;font-size:1.05rem}
+.notes3{display:grid;grid-template-columns:repeat(3,1fr);gap:32px;margin-top:40px}
+.notes3>div{border-top:2px solid var(--navy);padding-top:16px}
+.notes3 h3{font-size:1.05rem;margin-bottom:8px}
+.notes3 p{color:var(--muted);font-size:.97rem}
+.eula{margin-top:40px;color:var(--muted);font-size:.97rem}
+.faq details{border-top:1px solid var(--line)}
 .faq details:last-child{border-bottom:1px solid var(--line)}
 .faq summary{cursor:pointer;padding:18px 28px 18px 0;font-weight:600;list-style:none;position:relative}
 .faq summary::-webkit-details-marker{display:none}
 .faq summary::after{content:"+";position:absolute;right:4px;top:50%;transform:translateY(-50%);font-size:1.3rem;font-weight:400;color:var(--muted)}
 .faq details[open] summary::after{content:"\2212"}
-.faq details p{color:var(--muted);padding:0 0 18px;max-width:40em}
+.faq details p{color:var(--muted);padding:0 0 18px;max-width:64em}
 .faq a{color:var(--navy);text-decoration:underline}
 footer{margin-top:88px}
 @media (max-width:900px){
   .two{grid-template-columns:1fr;gap:32px}
-  .grid3,.dl{grid-template-columns:1fr 1fr}
+  .grid3,.dl,.notes3{grid-template-columns:1fr 1fr}
+  .lic{grid-template-columns:1fr;gap:28px}
   .utils{grid-template-columns:1fr 1fr}
   .pane{margin:0}
 }
 @media (max-width:560px){
-  .grid3,.dl,.utils,.shots{grid-template-columns:1fr}
+  .grid3,.dl,.utils,.notes3{grid-template-columns:1fr}
   .lic{padding:22px 20px}
 }
+
+.head p{max-width:none}
+.dl p{max-width:none}
