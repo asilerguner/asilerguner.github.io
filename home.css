@@ -145,3 +145,9 @@ footer a{text-decoration:none}footer a:hover{color:var(--ink);text-decoration:un
 .tagline{font-weight:600;font-size:.95rem;color:var(--cyan);margin-bottom:18px}
 .hero{padding-bottom:8px}
 .lead2{margin-top:14px;color:var(--ink)}
+
+.hobbies{display:grid;grid-template-columns:repeat(2,minmax(0,360px));gap:24px}
+.hobbies figure{margin:0}
+.hobbies img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:12px;border:1px solid var(--line)}
+.hobbies figcaption{margin-top:10px;color:var(--muted);font-size:.95rem}
+@media (max-width:560px){.hobbies{grid-template-columns:1fr}}
