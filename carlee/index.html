@@ -15,217 +15,109 @@
 <link rel="icon" href="/assets/brand/favicon.ico" sizes="32x32">
 <link rel="icon" type="image/svg+xml" href="/assets/brand/favicon.svg">
 <link rel="apple-touch-icon" href="/assets/brand/favicon-180.png">
+<meta name="theme-color" content="#002850">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/style.css">
-<link rel="stylesheet" href="/carlee/carlee.css">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/home.css">
+<link rel="stylesheet" href="/app.css">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"SoftwareApplication","name":"Carlee – My Car","operatingSystem":"iOS, iPadOS, macOS, visionOS","applicationCategory":"UtilitiesApplication","url":"https://asilerguner.com/carlee/","downloadUrl":"https://apps.apple.com/us/app/carlee-my-car/id6822318792","author":{"@type":"Person","name":"Asil Erguner"},"offers":{"@type":"Offer","price":"0","priceCurrency":"USD"}}
 </script>
 </head>
 <body>
-
-<header class="site-header">
-  <div class="wrap header-inner">
-    <a href="/index.html" class="logo" aria-label="Asil Ergüner"><img src="/assets/brand/ae-mark.svg" alt="AE" class="logo-mark"></a>
-    <nav class="nav" id="nav">
-      <a href="/index.html#projects">← All Projects</a>
-      <a href="/carlee/">Carlee</a>
-      <a href="/carlee/privacy/">Privacy</a>
-      <a href="/carlee/support/">Support</a>
+<header class="top">
+  <div class="wrap bar">
+    <a href="/index.html" class="logo" aria-label="Asil Ergüner, home"><img src="/assets/brand/ae-mark.svg" alt="AE"></a>
+    <nav class="links" aria-label="Main">
+      <a href="/index.html#apps">&larr; Portfolio</a>
+      <a href="#features">Features</a>
+      <a href="#screens">Screenshots</a>
+      <a href="#privacy">Privacy</a>
+      <a href="#pricing">Pricing</a>
     </nav>
-    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+    <a class="btn btn-primary btn-sm cta-top" href="https://apps.apple.com/us/app/carlee-my-car/id6822318792" target="_blank" rel="noopener">App Store</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Menu" aria-expanded="false" aria-controls="menu"><span></span><span></span><span></span></button>
   </div>
+  <nav class="menu" id="menu" aria-label="Mobile">
+    <a href="/index.html#apps">&larr; Portfolio</a>
+    <a href="#features">Features</a>
+    <a href="#screens">Screenshots</a>
+    <a href="#privacy">Privacy</a>
+    <a href="#pricing">Pricing</a>
+    <a href="https://apps.apple.com/us/app/carlee-my-car/id6822318792" target="_blank" rel="noopener">App Store</a>
+  </nav>
 </header>
 
 <main id="top">
 
-  <section class="hero cl-hero">
-    <div class="wrap cl-hero-grid">
-      <div class="cl-hero-text">
-        <img class="cl-icon" src="/assets/apps/carlee-icon.png" alt="Carlee app icon">
-        <ul class="cl-platforms">
-          <li>iPhone</li><li>iPad</li><li>Mac</li><li>Apple Vision</li>
-        </ul>
-        <h1>Carlee – My Car</h1>
-        <p class="cl-lead">Fuel, costs and reminders for every car you own. Private by design, with no ads, no tracking and no account.</p>
-        <div class="cl-cta">
-          <a class="btn cl-btn-store" href="https://apps.apple.com/us/app/carlee-my-car/id6822318792" target="_blank" rel="noopener">Download on the App Store</a>
-          <a class="btn cl-btn-ghost" href="#features">See features</a>
-        </div>
-        <p class="cl-meta">Free to download &middot; Premium with 7-day free trial &middot; Made in Sweden</p>
+<section class="hero">
+  <div class="wrap hero-grid">
+    <div class="intro">
+      <img class="appicon" src="/assets/apps/carlee-icon.png" alt="Carlee app icon" width="72" height="72">
+      <h1>Carlee</h1>
+      <p class="role">Car costs and reminders for iPhone, iPad and Mac</p>
+      <p class="lead">Fuel, costs and reminders for every car you own. Private by design, with no ads, no tracking and no account.</p>
+      <div class="cta">
+        <a class="btn btn-primary" href="https://apps.apple.com/us/app/carlee-my-car/id6822318792" target="_blank" rel="noopener">Download on the App Store</a>
+        <a class="btn btn-line" href="#features">See features</a>
       </div>
-      <div class="cl-phones" aria-hidden="true">
-        <figure class="cl-phone"><img src="/assets/carlee/carlee-1-garage.jpg" alt="" width="720" height="1565"></figure>
-        <figure class="cl-phone"><img src="/assets/carlee/carlee-5-reminders.jpg" alt="" width="720" height="1565"></figure>
-      </div>
+      <p class="req">Free to download. Premium with 7-day free trial. Made in Sweden.</p>
     </div>
-  </section>
+    <div class="duo"><img src="/assets/carlee/carlee-1-garage.jpg" alt="" width="600" height="1303"><img src="/assets/carlee/carlee-5-reminders.jpg" alt="" width="600" height="1303"></div>
+  </div>
+</section>
 
-  <section class="cl-factsbar">
-    <div class="wrap">
-      <div class="cl-facts">
-        <div class="cl-fact"><strong>20</strong><span>languages</span></div>
-        <div class="cl-fact"><strong>0</strong><span>ads or trackers</span></div>
-        <div class="cl-fact"><strong>iCloud</strong><span>private sync</span></div>
-        <div class="cl-fact"><strong>4+</strong><span>age rating</span></div>
-      </div>
-    </div>
-  </section>
+<section class="section" id="features">
+  <div class="wrap">
+    <div class="head" data-reveal><h2>Everything about your car, in one place</h2><p>Log it in seconds, see what your car really costs, and never miss an inspection or insurance renewal again.</p></div>
+    <div class="grid3"><div data-reveal><h3>Fuel &amp; consumption</h3><p>Log every fill-up and follow your consumption over time, with odometer scanning to save typing.</p></div><div data-reveal><h3>Every cost, tracked</h3><p>Service, insurance, tax, loans, parking and tolls, plus depreciation, so you see the true cost of ownership.</p></div><div data-reveal><h3>Smart reminders <span class="tag">Premium</span></h3><p>Inspection, service, insurance and tax dates, with a heads-up one month ahead, one week ahead, or on the day.</p></div><div data-reveal><h3>Trips on the map <span class="tag">Premium</span></h3><p>Record trips manually or automatically and review each route on a map.</p></div><div data-reveal><h3>Documents &amp; photos</h3><p>Attach receipts, registration papers and photos to a car or to any single entry.</p></div><div data-reveal><h3>Reports &amp; backups <span class="tag">Premium</span></h3><p>PDF reports per car, CSV exports for Excel, and full backups whenever you want them.</p></div></div>
+    <p class="also" data-reveal><strong>Also:</strong> Built-in car library, Make, model &amp; tank size data, Statistics &amp; history, Multiple currencies, Metric or imperial units, 20 languages.</p>
+  </div>
+</section>
 
-  <section class="section section-alt" id="screenshots">
-    <div class="wrap">
-      <div class="cl-head">
-        <p class="eyebrow center">Screenshots</p>
-        <h2>See Carlee in action</h2>
-      </div>
-      <div class="cl-gallery" tabindex="0" aria-label="Carlee screenshots">
-        <figure><div class="cl-phone"><img src="/assets/carlee/carlee-1-garage.jpg" alt="Carlee Garage screen" width="720" height="1565" loading="lazy"></div><figcaption><strong>All your cars at a glance</strong>Overview of cars, yearly spend and open reminders.</figcaption></figure>
-        <figure><div class="cl-phone"><img src="/assets/carlee/carlee-2-car.jpg" alt="Carlee Car overview screen" width="720" height="1565" loading="lazy"></div><figcaption><strong>Everything for one car</strong>Consumption, cost per mile, value and odometer.</figcaption></figure>
-        <figure><div class="cl-phone"><img src="/assets/carlee/carlee-3-history.jpg" alt="Carlee History screen" width="720" height="1565" loading="lazy"></div><figcaption><strong>Every fill-up and expense</strong>Fuel, service, parking, tolls and more, by month.</figcaption></figure>
-        <figure><div class="cl-phone"><img src="/assets/carlee/carlee-4-stats.jpg" alt="Carlee Statistics screen" width="720" height="1565" loading="lazy"></div><figcaption><strong>See what it really costs</strong>Monthly costs and a breakdown by category.</figcaption></figure>
-        <figure><div class="cl-phone"><img src="/assets/carlee/carlee-5-reminders.jpg" alt="Carlee Reminders screen" width="720" height="1565" loading="lazy"></div><figcaption><strong>Never miss a date</strong>Inspection, insurance, service and tyre changes.</figcaption></figure>
-        <figure><div class="cl-phone"><img src="/assets/carlee/carlee-6-trips.jpg" alt="Carlee Trips screen" width="720" height="1565" loading="lazy"></div><figcaption><strong>Log every trip</strong>Business, private or commute, with mileage and route.</figcaption></figure>
-        <figure><div class="cl-phone"><img src="/assets/carlee/carlee-7-premium.jpg" alt="Carlee Premium screen" width="720" height="1565" loading="lazy"></div><figcaption><strong>Premium, when you need it</strong>Start with a 7-day free trial.</figcaption></figure>
-      </div>
-    </div>
-  </section>
+<section class="section" id="screens">
+  <div class="wrap">
+    <div class="head" data-reveal><h2>Screenshots</h2></div>
+  </div>
+  <div class="wrap"><div class="gallery" tabindex="0" aria-label="Carlee screenshots"><figure><img src="/assets/carlee/carlee-1-garage.jpg" alt="Carlee Garage screen" width="600" height="1303" loading="lazy"><figcaption><strong>All your cars at a glance</strong>Overview of cars, yearly spend and open reminders.</figcaption></figure><figure><img src="/assets/carlee/carlee-2-car.jpg" alt="Carlee Car overview screen" width="600" height="1303" loading="lazy"><figcaption><strong>Everything for one car</strong>Consumption, cost per mile, value and odometer.</figcaption></figure><figure><img src="/assets/carlee/carlee-3-history.jpg" alt="Carlee History screen" width="600" height="1303" loading="lazy"><figcaption><strong>Every fill-up and expense</strong>Fuel, service, parking, tolls and more, by month.</figcaption></figure><figure><img src="/assets/carlee/carlee-4-stats.jpg" alt="Carlee Statistics screen" width="600" height="1303" loading="lazy"><figcaption><strong>See what it really costs</strong>Monthly costs and a breakdown by category.</figcaption></figure><figure><img src="/assets/carlee/carlee-5-reminders.jpg" alt="Carlee Reminders screen" width="600" height="1303" loading="lazy"><figcaption><strong>Never miss a date</strong>Inspection, insurance, service and tyre changes.</figcaption></figure><figure><img src="/assets/carlee/carlee-6-trips.jpg" alt="Carlee Trips screen" width="600" height="1303" loading="lazy"><figcaption><strong>Log every trip</strong>Business, private or commute, with mileage and route.</figcaption></figure><figure><img src="/assets/carlee/carlee-7-premium.jpg" alt="Carlee Premium screen" width="600" height="1303" loading="lazy"><figcaption><strong>Premium, when you need it</strong>Start with a 7-day free trial.</figcaption></figure></div></div>
+</section>
 
-  <section class="section" id="features">
-    <div class="wrap">
-      <div class="cl-head">
-        <p class="eyebrow center">Features</p>
-        <h2>Everything about your car, in one place</h2>
-        <p>Log it in seconds, see what your car really costs, and never miss an inspection or insurance renewal again.</p>
-      </div>
-      <div class="cl-grid">
-        <article class="cl-card">
-          <div class="cl-ico"><svg viewBox="0 0 24 24"><path d="M4 21V5a2 2 0 0 1 2-2h6a2 2 0 0 1 2 2v16M3 21h12M6 8h6M14 9h2a2 2 0 0 1 2 2v5a1.5 1.5 0 0 0 3 0V8l-3-3"/></svg></div>
-          <h3>Fuel &amp; consumption</h3>
-          <p>Log every fill-up and follow your consumption over time, with odometer scanning to save typing.</p>
-        </article>
-        <article class="cl-card">
-          <div class="cl-ico"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M14.5 9.2c-.5-.8-1.4-1.2-2.5-1.2-1.4 0-2.5.8-2.5 1.8 0 2.5 5 1.2 5 3.7 0 1-1.1 1.8-2.5 1.8-1.1 0-2-.4-2.5-1.2M12 6v2M12 16v2"/></svg></div>
-          <h3>Every cost, tracked</h3>
-          <p>Service, insurance, tax, loans, parking and tolls, plus depreciation, so you see the true cost of ownership.</p>
-        </article>
-        <article class="cl-card">
-          <div class="cl-ico"><svg viewBox="0 0 24 24"><path d="M18 8a6 6 0 0 0-12 0c0 7-3 9-3 9h18s-3-2-3-9M13.7 21a2 2 0 0 1-3.4 0"/></svg></div>
-          <h3>Smart reminders <span class="cl-tag">Premium</span></h3>
-          <p>Inspection, service, insurance and tax dates, with a heads-up one month ahead, one week ahead, or on the day.</p>
-        </article>
-        <article class="cl-card">
-          <div class="cl-ico"><svg viewBox="0 0 24 24"><path d="M12 21s-7-6.1-7-11a7 7 0 0 1 14 0c0 4.9-7 11-7 11zM12 12a2.5 2.5 0 1 0 0-5 2.5 2.5 0 0 0 0 5z"/></svg></div>
-          <h3>Trips on the map <span class="cl-tag">Premium</span></h3>
-          <p>Record trips manually or automatically and review each route on a map.</p>
-        </article>
-        <article class="cl-card">
-          <div class="cl-ico"><svg viewBox="0 0 24 24"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8zM14 3v5h5M9 13h6M9 17h6"/></svg></div>
-          <h3>Documents &amp; photos</h3>
-          <p>Attach receipts, registration papers and photos to a car or to any single entry.</p>
-        </article>
-        <article class="cl-card">
-          <div class="cl-ico"><svg viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg></div>
-          <h3>Reports &amp; backups <span class="cl-tag">Premium</span></h3>
-          <p>PDF reports per car, CSV exports for Excel, and full backups whenever you want them.</p>
-        </article>
-      </div>
-      <ul class="cl-more">
-        <li>Built-in car library</li>
-        <li>Make, model &amp; tank size data</li>
-        <li>Statistics &amp; history</li>
-        <li>Multiple currencies</li>
-        <li>Metric or imperial units</li>
-        <li>20 languages</li>
-      </ul>
+<section class="section" id="privacy">
+  <div class="wrap two">
+    <div data-reveal>
+      <h2 class="h2s">Your car data stays yours</h2>
+      <p class="ptxt">Carlee has no server of its own. Your data lives on your devices and, if you like, in your own iCloud, so it is there on iPhone, iPad and Mac without ever passing through anyone else.</p>
+      <p class="ptxt"><a class="ulink" href="/carlee/privacy/">Read the privacy policy</a></p>
     </div>
-  </section>
+    <ul class="checks" data-reveal><li><strong>No ads, no tracking</strong><span>No analytics and no third-party SDKs.</span></li><li><strong>No account needed</strong><span>Open the app and start. Nothing to sign up for.</span></li><li><strong>Private iCloud sync</strong><span>Synced through your own Apple ID, across all your devices.</span></li></ul>
+  </div>
+</section>
 
-  <section class="section section-alt" id="privacy">
-    <div class="wrap cl-split">
-      <div>
-        <p class="eyebrow">Privacy</p>
-        <h2>Your car data stays yours</h2>
-        <p>Carlee has no server of its own. Your data lives on your devices and, if you like, in your own iCloud, so it is there on iPhone, iPad and Mac without ever passing through anyone else.</p>
-        <p><a href="/carlee/privacy/">Read the privacy policy →</a></p>
-      </div>
-      <ul class="cl-checks">
-        <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg><div><strong>No ads, no tracking</strong><span>No analytics and no third-party SDKs.</span></div></li>
-        <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg><div><strong>No account needed</strong><span>Open the app and start. Nothing to sign up for.</span></div></li>
-        <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg><div><strong>Private iCloud sync</strong><span>Synced through your own Apple ID, across all your devices.</span></div></li>
-      </ul>
-    </div>
-  </section>
+<section class="section" id="pricing">
+  <div class="wrap">
+    <div class="head" data-reveal><h2>Free to start, Premium when you need more</h2><p>Download Carlee for free and track your first car. Upgrade whenever you are ready.</p></div>
+    <div class="plans"><div class="plan" data-reveal><h3>Free</h3><p class="price">$0</p><p class="psub">Everything you need for one car</p><ul><li>One car</li><li>Fuel and cost tracking</li><li>History and statistics</li><li>Odometer scan</li></ul></div><div class="plan pro" data-reveal><h3>Carlee Premium</h3><p class="badge">7-day free trial</p><p class="price">$9.99 <small>/ year</small></p><p class="psub">Or the equivalent in your local currency</p><ul><li>Everything in Free</li><li>Reminders with notifications</li><li>Unlimited cars</li><li>Trips on the map</li><li>PDF and Excel (CSV) reports</li></ul></div></div>
+    <p class="fine">The subscription renews automatically and can be cancelled at any time in your Apple ID settings.</p>
+  </div>
+</section>
 
-  <section class="section" id="pricing">
-    <div class="wrap">
-      <div class="cl-head">
-        <p class="eyebrow center">Pricing</p>
-        <h2>Free to start, Premium when you need more</h2>
-        <p>Download Carlee for free and track your first car. Upgrade whenever you are ready.</p>
-      </div>
-      <div class="cl-plans">
-        <div class="cl-plan">
-          <h3>Free</h3>
-          <div class="cl-price">$0</div>
-          <p class="sub">Everything you need for one car</p>
-          <ul>
-            <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg>One car</li>
-            <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg>Fuel and cost tracking</li>
-            <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg>History and statistics</li>
-            <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg>Odometer scan</li>
-          </ul>
-        </div>
-        <div class="cl-plan premium">
-          <span class="cl-badge">7-day free trial</span>
-          <h3>Carlee Premium</h3>
-          <div class="cl-price">$9.99 <small>/ year</small></div>
-          <p class="sub">Or the equivalent in your local currency</p>
-          <ul>
-            <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg>Everything in Free</li>
-            <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg>Reminders with notifications</li>
-            <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg>Unlimited cars</li>
-            <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg>Trips on the map</li>
-            <li><svg viewBox="0 0 24 24"><path d="M5 12l5 5 9-10"/></svg>PDF and Excel (CSV) reports</li>
-          </ul>
-        </div>
-      </div>
-      <p class="cl-fine">The subscription renews automatically and can be cancelled at any time in your Apple ID settings.</p>
-    </div>
-  </section>
+<section class="section" id="get">
+  <div class="wrap">
+    <div class="head" data-reveal><h2>Get Carlee</h2><p>Free on the App Store for iPhone, iPad and Mac. Works on iOS 17, iPadOS 17, macOS 14 and visionOS 1 or later, in 20 languages.</p></div>
+    <a class="btn btn-primary" href="https://apps.apple.com/us/app/carlee-my-car/id6822318792" target="_blank" rel="noopener">Download on the App Store</a>
+  </div>
+</section>
 
-  <section class="section section-alt" id="devices">
-    <div class="wrap">
-      <div class="cl-head">
-        <p class="eyebrow center">Compatibility</p>
-        <h2>On every Apple device you own</h2>
-      </div>
-      <div class="cl-compat">
-        <div><strong>iPhone</strong><span>iOS 17 or later</span></div>
-        <div><strong>iPad</strong><span>iPadOS 17 or later</span></div>
-        <div><strong>Mac</strong><span>macOS 14 or later</span></div>
-        <div><strong>Apple Vision</strong><span>visionOS 1 or later</span></div>
-      </div>
-    </div>
-  </section>
-
-  <section class="cl-final">
-    <div class="wrap">
-      <h2>Get Carlee today</h2>
-      <p>Free on the App Store for iPhone, iPad and Mac.</p>
-      <a class="btn cl-btn-store" href="https://apps.apple.com/us/app/carlee-my-car/id6822318792" target="_blank" rel="noopener">Download on the App Store</a>
-    </div>
-  </section>
 </main>
 
-<footer class="site-footer">
+<footer>
   <div class="wrap">
-    <p><a href="/carlee/support/">Support</a> &middot; <a href="/carlee/privacy/">Privacy Policy</a></p>
-    <p><img class="flag-icon" src="/assets/icons/SwedenFlag.png" alt="Sweden flag"> &copy; <span id="year"></span> Asil Ergüner. Carlee - Växjö, Sweden.</p>
+    <p>&copy; <span id="year"></span> Asil Ergüner, Växjö, Sweden</p>
+    <nav aria-label="Footer"><a href="/carlee/support/">Support</a><a href="/carlee/privacy/">Privacy policy</a><a href="/index.html">Home</a></nav>
   </div>
 </footer>
 
-<script src="/script.js"></script>
+<script src="/home.js"></script>
 </body>
 </html>

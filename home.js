@@ -17,7 +17,7 @@
   const secIO = new IntersectionObserver(es => es.forEach(e => {
     if (e.isIntersecting) navLinks.forEach(a => a.setAttribute('aria-current', a.getAttribute('href') === '#' + e.target.id ? 'true' : 'false'));
   }), { rootMargin: '-45% 0px -50% 0px' });
-  ['approach', 'about', 'apps'].forEach(id => { const el = document.getElementById(id); if (el) secIO.observe(el); });
+  ['approach', 'about', 'apps', 'overview', 'features', 'download', 'faq', 'features', 'screens', 'privacy', 'pricing'].forEach(id => { const el = document.getElementById(id); if (el) secIO.observe(el); });
 
   /* reveal on scroll */
   const revealIO = new IntersectionObserver(es => es.forEach(e => {

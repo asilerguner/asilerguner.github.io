@@ -1,0 +1,44 @@
+/* App pages (Carlee, Pursera): builds on home.css */
+.hero{padding-bottom:8px}
+.appicon{display:block;width:72px;height:72px;border-radius:16px;border:1px solid var(--line);margin-bottom:24px}
+.hero .role{margin-bottom:22px}
+.hero .req{margin-top:20px;font-size:.92rem;color:var(--muted)}
+.duo{display:flex;gap:20px;justify-content:center;align-items:flex-start}
+.duo img{width:calc(50% - 10px);max-width:230px;height:auto;border-radius:22px;border:1px solid var(--line);box-shadow:0 12px 32px rgba(10,28,58,.10)}
+.duo img:nth-child(2){margin-top:36px}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:36px 32px}
+.grid3>div{border-top:2px solid var(--navy);padding-top:16px}
+.grid3 h3{font-size:1.05rem;margin-bottom:8px}
+.grid3 p{color:var(--muted);font-size:.97rem}
+.tag{display:inline-block;margin-left:6px;padding:2px 8px;border-radius:999px;background:var(--sky);color:var(--navy);font-size:.72rem;font-weight:600;letter-spacing:0;vertical-align:2px}
+.also{margin-top:32px;color:var(--muted);font-size:.97rem;max-width:46em}
+.gallery{display:flex;gap:24px;overflow-x:auto;scroll-snap-type:x proximity;padding-bottom:16px}
+.gallery figure{margin:0;flex:none;width:210px;scroll-snap-align:start}
+.gallery img{display:block;width:100%;height:auto;border-radius:20px;border:1px solid var(--line)}
+.gallery figcaption{margin-top:12px;font-size:.9rem;color:var(--muted)}
+.gallery figcaption strong{display:block;color:var(--ink);font-size:.95rem;margin-bottom:2px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+.h2s{font-size:clamp(1.6rem,2.8vw,2.2rem);margin-bottom:14px}
+.ptxt{color:var(--muted);max-width:34em}
+.ptxt+.ptxt{margin-top:12px}
+.ulink{color:var(--navy);font-weight:600;text-decoration:underline}
+.checks{list-style:none;margin:0;padding:0}
+.checks li{padding:16px 0;border-top:1px solid var(--line)}
+.checks li:last-child{border-bottom:1px solid var(--line)}
+.checks strong{display:block}
+.checks span{color:var(--muted);font-size:.97rem}
+.plans{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;max-width:760px}
+.plan{border:1px solid var(--line);border-radius:12px;padding:28px}
+.plan.pro{border-top:3px solid var(--navy)}
+.plan h3{font-size:1.1rem}
+.badge{display:inline-block;margin-top:8px;padding:2px 10px;border-radius:999px;background:var(--sky);color:var(--navy);font-size:.8rem;font-weight:600}
+.price{font-size:2rem;font-weight:700;letter-spacing:-.02em;margin-top:12px}
+.price small{font-size:1rem;font-weight:500;color:var(--muted)}
+.psub{color:var(--muted);font-size:.92rem;margin-bottom:16px}
+.plan ul{margin:0;padding-left:18px;color:var(--ink);font-size:.97rem}
+.plan li+li{margin-top:6px}
+.fine{margin-top:20px;font-size:.92rem;color:var(--muted);max-width:46em}
+footer{margin-top:88px}
+@media (max-width:900px){.grid3{grid-template-columns:1fr 1fr}.two{grid-template-columns:1fr;gap:32px}.duo{justify-content:flex-start}}
+@media (max-width:560px){.grid3,.plans{grid-template-columns:1fr}.duo img{max-width:46%}}
+.hero .role{font-size:clamp(1.2rem,2.2vw,1.5rem)}
