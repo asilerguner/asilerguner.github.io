@@ -160,8 +160,10 @@ footer a{text-decoration:none}footer a:hover{color:var(--ink);text-decoration:un
 .xp p{color:var(--muted);font-size:.98rem;max-width:44em}
 @media (max-width:700px){.xp li{grid-template-columns:1fr;gap:8px}}
 
-.edu{list-style:none;margin:0;padding:0;display:grid;gap:16px}
-.edu li{display:grid;grid-template-columns:96px 1fr;gap:16px;align-items:center}
-.edu img{display:block;max-width:96px;max-height:48px;width:auto;height:auto;object-fit:contain}
-.edu span{font-weight:500}
-.edu small{display:block;font-weight:400;color:var(--muted);font-size:.88rem}
+.edu{list-style:none;margin:0;padding:0;display:grid;gap:14px}
+.edu li{display:grid;grid-template-columns:88px 1fr;gap:16px;align-items:center}
+.logo-tile{display:grid;place-items:center;width:88px;height:56px;padding:8px;border:1px solid var(--line);border-radius:8px;background:#fff}
+.logo-tile img{display:block;max-width:70px;max-height:38px;width:auto;height:auto;object-fit:contain}
+.edu .what{font-weight:500;font-size:.98rem;line-height:1.35}
+.edu small{display:block;font-weight:400;color:var(--muted);font-size:.86rem;margin-top:2px}
+.badges img{width:56px;height:56px}
