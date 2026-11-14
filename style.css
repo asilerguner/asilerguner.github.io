@@ -911,3 +911,10 @@ a, .btn, .project-card, .about-card, .cert-card, .service-card, .hobby-card, .or
 @media (max-width: 600px) { .cw-admin-grid { grid-template-columns: 1fr; } }
 .logo { display: inline-flex; align-items: center; }
 .logo-mark { height: 30px; width: auto; display: block; }
+
+/* Smooth page-to-page transitions (supporting browsers) */
+@view-transition{navigation:auto}
+::view-transition-old(root){animation:vtOut .25s ease both}
+::view-transition-new(root){animation:vtIn .35s ease both}
+@keyframes vtOut{to{opacity:0;transform:translateY(-8px)}}
+@keyframes vtIn{from{opacity:0;transform:translateY(8px)}}
