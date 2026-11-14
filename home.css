@@ -151,3 +151,11 @@ footer a{text-decoration:none}footer a:hover{color:var(--ink);text-decoration:un
 .hobbies img{display:block;width:100%;height:auto;aspect-ratio:4/3;object-fit:cover;border-radius:12px;border:1px solid var(--line)}
 .hobbies figcaption{margin-top:10px;color:var(--muted);font-size:.95rem}
 @media (max-width:560px){.hobbies{grid-template-columns:1fr}}
+
+.xp{list-style:none;margin:0;padding:0;border-top:1px solid var(--line)}
+.xp li{display:grid;grid-template-columns:210px 1fr;gap:32px;padding:24px 0;border-bottom:1px solid var(--line)}
+.xp .when{font-weight:600;font-size:.95rem;color:var(--navy)}
+.xp .when span{display:block;font-weight:400;color:var(--muted);margin-top:2px}
+.xp h3{font-size:1.1rem;margin-bottom:6px}
+.xp p{color:var(--muted);font-size:.98rem;max-width:44em}
+@media (max-width:700px){.xp li{grid-template-columns:1fr;gap:8px}}
