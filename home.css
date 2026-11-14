@@ -46,7 +46,7 @@ img{max-width:100%}
 /* hero */
 .hero{padding:72px 0 0}
 .hero-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:64px;align-items:center}
-.hero h1{font-size:clamp(2.6rem,5.4vw,4.4rem);line-height:1.1;margin-bottom:22px;max-width:17em}
+.hero h1{font-size:clamp(2.6rem,5.4vw,4.4rem);line-height:1.1;margin-bottom:8px;max-width:17em}
 .lead{font-size:1.18rem;color:var(--muted);max-width:34em}
 .cta{display:flex;flex-wrap:wrap;gap:12px;margin-top:32px}
 .portrait{display:block;width:100%;height:auto;max-width:400px;margin-left:auto;aspect-ratio:4/5;object-fit:cover;object-position:68% 50%;border-radius:14px;border:1px solid var(--line)}
@@ -167,3 +167,5 @@ footer a{text-decoration:none}footer a:hover{color:var(--ink);text-decoration:un
 .edu .what{font-weight:500;font-size:.98rem;line-height:1.35}
 .edu small{display:block;font-weight:400;color:var(--muted);font-size:.86rem;margin-top:2px}
 .badges img{width:56px;height:56px}
+
+.hero .role{font-size:clamp(1.4rem,2.6vw,2rem);font-weight:600;color:var(--cyan);margin:0 0 24px;letter-spacing:-.01em}
